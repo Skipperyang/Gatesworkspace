@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "gates:block/soulwood_tree_pressure_plate"
+    },
+    "powered=true": {
+      "model": "gates:block/soulwood_tree_pressure_plate_down"
+    }
+  }
+}

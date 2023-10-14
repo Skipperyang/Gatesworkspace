@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "wooden_stairs",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:CursedPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:CursedPlanks"
+      },
+      {
+        "value": "CUSTOM:CursedPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:CursedPlanks"
+      },
+      {
+        "value": "CUSTOM:CursedPlanks"
+      },
+      {
+        "value": "CUSTOM:CursedPlanks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:CursedStairs"
+    },
+    "name": "cursed_stairs_recipe",
+    "namespace": "mod"
+  }
+}

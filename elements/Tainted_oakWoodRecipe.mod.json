@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 3,
+    "group": "bark",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Tainted_oakLog"
+      },
+      {
+        "value": "CUSTOM:Tainted_oakLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Tainted_oakLog"
+      },
+      {
+        "value": "CUSTOM:Tainted_oakLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Tainted_oakWood"
+    },
+    "name": "tainted_oak_wood_recipe",
+    "namespace": "mod"
+  }
+}

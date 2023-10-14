@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "planks",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "gates:cursed_log"
+    }
+  ],
+  "result": {
+    "item": "gates:cursed_planks",
+    "count": 4
+  }
+}

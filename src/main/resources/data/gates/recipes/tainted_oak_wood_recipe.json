@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "bark",
+  "category": "building",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "gates:tainted_oak_log"
+    },
+    "1": {
+      "item": "gates:tainted_oak_log"
+    },
+    "2": {
+      "item": "gates:tainted_oak_log"
+    },
+    "3": {
+      "item": "gates:tainted_oak_log"
+    }
+  },
+  "result": {
+    "item": "gates:tainted_oak_wood",
+    "count": 3
+  }
+}

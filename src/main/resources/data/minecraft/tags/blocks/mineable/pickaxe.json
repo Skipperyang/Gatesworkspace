@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "gates:cursed_portalblock",
+    "gates:cursedcobblestone",
+    "gates:cursedstone",
+    "gates:cursed_ore",
+    "gates:cursed_block",
+    "gates:curropted_ore",
+    "gates:curropted_block",
+    "gates:shadow_stone_ore",
+    "gates:shadow_stone_block",
+    "gates:tainted_crystal_ore",
+    "gates:tainted_crystal_block",
+    "gates:cursed_metal_ore",
+    "gates:cursed_metal_block",
+    "gates:curseddiorite",
+    "gates:cursedandisite",
+    "gates:cursedgranite"
+  ]
+}

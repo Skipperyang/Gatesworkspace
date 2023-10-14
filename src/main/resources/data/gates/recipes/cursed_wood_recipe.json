@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "bark",
+  "category": "building",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "gates:cursed_log"
+    },
+    "1": {
+      "item": "gates:cursed_log"
+    },
+    "2": {
+      "item": "gates:cursed_log"
+    },
+    "3": {
+      "item": "gates:cursed_log"
+    }
+  },
+  "result": {
+    "item": "gates:cursed_wood",
+    "count": 4
+  }
+}

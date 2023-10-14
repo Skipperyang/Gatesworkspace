@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "gates:curropted"
+    },
+    "2": {
+      "item": "gates:curropted"
+    },
+    "3": {
+      "item": "gates:curropted"
+    },
+    "5": {
+      "item": "gates:curropted"
+    }
+  },
+  "result": {
+    "item": "gates:curropted_armor_armor_boots",
+    "count": 1
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/fence_side",
+  "textures": {
+    "texture": "gates:block/cursed_planks",
+    "particle": "gates:block/cursed_planks"
+  },
+  "render_type": "solid"
+}

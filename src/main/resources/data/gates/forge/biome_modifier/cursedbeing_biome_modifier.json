@@ -1,0 +1,18 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "gates:taintedlands",
+    "forest",
+    "gates:shadowscape",
+    "plains",
+    "gates:cursed_forest",
+    "gates:cursed_plains",
+    "gates:curropted_tundra"
+  ],
+  "spawners": {
+    "type": "gates:cursedbeing",
+    "weight": 4,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

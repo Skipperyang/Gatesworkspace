@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "gates:block/cursed_realm_portal_ew"
+    },
+    "axis=x": {
+      "model": "gates:block/cursed_realm_portal_ns"
+    }
+  }
+}

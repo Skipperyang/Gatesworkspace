@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_slab",
+  "category": "building",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "gates:cursed_planks"
+    },
+    "1": {
+      "item": "gates:cursed_planks"
+    },
+    "2": {
+      "item": "gates:cursed_planks"
+    }
+  },
+  "result": {
+    "item": "gates:cursed_slab",
+    "count": 6
+  }
+}

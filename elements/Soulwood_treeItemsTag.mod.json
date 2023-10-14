@@ -1,0 +1,21 @@
+{
+  "_fv": 47,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:Soulwood_treeWood"
+      },
+      {
+        "value": "CUSTOM:Soulwood_treeLog"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "soulwood_tree_log",
+    "namespace": "forge"
+  }
+}

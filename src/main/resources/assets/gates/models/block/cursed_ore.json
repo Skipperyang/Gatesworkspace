@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "gates:block/cursed_ore",
+    "particle": "gates:block/cursed_ore"
+  },
+  "render_type": "solid"
+}

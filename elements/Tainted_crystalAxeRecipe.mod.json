@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "EQUIPMENT",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Tainted_crystalDust"
+      },
+      {
+        "value": "CUSTOM:Tainted_crystalDust"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Tainted_crystalDust"
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Tainted_crystalAxe"
+    },
+    "name": "tainted_crystal_axe_recipe",
+    "namespace": "mod"
+  }
+}

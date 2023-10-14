@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "gates:block/soulwood_tree_leaves",
+    "particle": "gates:block/soulwood_tree_leaves"
+  }
+}

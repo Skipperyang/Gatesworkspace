@@ -1,0 +1,14 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "gates:soulmountains",
+    "gates:soulforest",
+    "gates:cursed_forest"
+  ],
+  "spawners": {
+    "type": "gates:cursedsoul",
+    "weight": 6,
+    "minCount": 1,
+    "maxCount": 4
+  }
+}

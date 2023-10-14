@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "gates:shadow_stone_block"
+    }
+  ],
+  "result": {
+    "item": "gates:shadow_stone_ingot",
+    "count": 9
+  }
+}

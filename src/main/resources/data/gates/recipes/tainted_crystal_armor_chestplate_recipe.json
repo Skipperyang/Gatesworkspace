@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "gates:tainted_crystal_dust"
+    },
+    "2": {
+      "item": "gates:tainted_crystal_dust"
+    },
+    "3": {
+      "item": "gates:tainted_crystal_dust"
+    },
+    "4": {
+      "item": "gates:tainted_crystal_dust"
+    },
+    "5": {
+      "item": "gates:tainted_crystal_dust"
+    },
+    "6": {
+      "item": "gates:tainted_crystal_dust"
+    },
+    "7": {
+      "item": "gates:tainted_crystal_dust"
+    },
+    "8": {
+      "item": "gates:tainted_crystal_dust"
+    }
+  },
+  "result": {
+    "item": "gates:tainted_crystal_armor_chestplate",
+    "count": 1
+  }
+}

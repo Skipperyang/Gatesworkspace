@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "gates:cursedshared"
+    },
+    "1": {
+      "item": "gates:cursed_ingot"
+    },
+    "2": {
+      "item": "gates:cursedshared"
+    },
+    "3": {
+      "item": "gates:cursedshared"
+    },
+    "5": {
+      "item": "gates:cursedshared"
+    },
+    "6": {
+      "item": "gates:cursedshared"
+    },
+    "8": {
+      "item": "gates:cursedshared"
+    }
+  },
+  "result": {
+    "item": "gates:cursedarmor_armor_leggings",
+    "count": 1
+  }
+}

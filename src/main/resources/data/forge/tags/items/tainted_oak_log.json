@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "gates:tainted_oak_wood",
+    "gates:tainted_oak_log"
+  ]
+}

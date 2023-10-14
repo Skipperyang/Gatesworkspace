@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "gates:brinkportal"
+    },
+    "title": {
+      "translate": "advancements.wasteland.title"
+    },
+    "description": {
+      "translate": "advancements.wasteland.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "wasteland": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "gates:the_brink"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 28
+  },
+  "parent": "gates:cursed"
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "gates:item/shadow_stone_pickaxe"
+  }
+}

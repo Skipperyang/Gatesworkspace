@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "gates:block/curseddiorite",
+    "particle": "gates:block/curseddiorite"
+  },
+  "render_type": "solid"
+}

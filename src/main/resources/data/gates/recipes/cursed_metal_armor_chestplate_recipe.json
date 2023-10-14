@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "gates:cursed_metal_ingot"
+    },
+    "2": {
+      "item": "gates:cursed_metal_ingot"
+    },
+    "3": {
+      "item": "gates:cursed_metal_ingot"
+    },
+    "4": {
+      "item": "gates:cursed_metal_ingot"
+    },
+    "5": {
+      "item": "gates:cursed_metal_ingot"
+    },
+    "6": {
+      "item": "gates:cursed_metal_ingot"
+    },
+    "7": {
+      "item": "gates:cursed_metal_ingot"
+    },
+    "8": {
+      "item": "gates:cursed_metal_ingot"
+    }
+  },
+  "result": {
+    "item": "gates:cursed_metal_armor_chestplate",
+    "count": 1
+  }
+}

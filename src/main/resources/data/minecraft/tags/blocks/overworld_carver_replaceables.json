@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "gates:cursedstone",
+    "gates:taintedgrass",
+    "gates:cursedgrass",
+    "gates:curroptedgrass",
+    "gates:brinksand",
+    "minecraft:stone"
+  ]
+}

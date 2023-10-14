@@ -1,0 +1,9 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "gates:block/cursed_planks",
+    "top": "gates:block/cursed_planks",
+    "side": "gates:block/cursed_planks"
+  },
+  "render_type": "solid"
+}

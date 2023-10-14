@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "gates:block/corrupted_grass_blocktop",
+    "up": "gates:block/corrupted_grass_blocktop",
+    "north": "gates:block/curropted_grass_side",
+    "east": "gates:block/curropted_grass_side",
+    "south": "gates:block/curropted_grass_side",
+    "west": "gates:block/curropted_grass_side",
+    "particle": "gates:block/corrupted_grass_blocktop"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 3,
+    "group": "bark",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:WraithwoodLog"
+      },
+      {
+        "value": "CUSTOM:WraithwoodLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:WraithwoodLog"
+      },
+      {
+        "value": "CUSTOM:WraithwoodLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:WraithwoodWood"
+    },
+    "name": "wraithwood_wood_recipe",
+    "namespace": "mod"
+  }
+}

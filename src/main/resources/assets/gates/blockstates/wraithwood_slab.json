@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "gates:block/wraithwood_slab"
+    },
+    "type=top": {
+      "model": "gates:block/wraithwood_slab_top"
+    },
+    "type=double": {
+      "model": "gates:block/wraithwood_slab_full"
+    }
+  }
+}

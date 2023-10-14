@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "gates:curropted"
+    },
+    "2": {
+      "item": "gates:curropted"
+    },
+    "3": {
+      "item": "gates:curropted"
+    },
+    "4": {
+      "item": "gates:curropted"
+    },
+    "5": {
+      "item": "gates:curropted"
+    },
+    "6": {
+      "item": "gates:curropted"
+    },
+    "7": {
+      "item": "gates:curropted"
+    },
+    "8": {
+      "item": "gates:curropted"
+    }
+  },
+  "result": {
+    "item": "gates:curropted_armor_armor_chestplate",
+    "count": 1
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "type": "gates:cursedgranite",
+  "config": {
+    "size": 16,
+    "discard_chance_on_air_exposure": 0,
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "gates:cursedstone"
+          }
+        },
+        "state": {
+          "Name": "gates:cursedgranite"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "gates:cursedandisite"
+          }
+        },
+        "state": {
+          "Name": "gates:cursedgranite"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "gates:curseddiorite"
+          }
+        },
+        "state": {
+          "Name": "gates:cursedgranite"
+        }
+      }
+    ]
+  }
+}

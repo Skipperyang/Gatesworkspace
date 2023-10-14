@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "gates:block/cursed_slab"
+    },
+    "type=top": {
+      "model": "gates:block/cursed_slab_top"
+    },
+    "type=double": {
+      "model": "gates:block/cursed_slab_full"
+    }
+  }
+}

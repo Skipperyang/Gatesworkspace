@@ -1,0 +1,20 @@
+{
+  "type": "gates:cursed_ore",
+  "config": {
+    "size": 2,
+    "discard_chance_on_air_exposure": 0,
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "gates:cursedstone"
+          }
+        },
+        "state": {
+          "Name": "gates:cursed_ore"
+        }
+      }
+    ]
+  }
+}

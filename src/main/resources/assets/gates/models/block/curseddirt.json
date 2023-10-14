@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "gates:block/cursed_block",
+    "up": "gates:block/cursed_dirt",
+    "north": "gates:block/cursed_dirt",
+    "east": "gates:block/cursed_dirt",
+    "south": "gates:block/cursed_dirt",
+    "west": "gates:block/cursed_dirt",
+    "particle": "gates:block/cursed_block"
+  },
+  "render_type": "solid"
+}

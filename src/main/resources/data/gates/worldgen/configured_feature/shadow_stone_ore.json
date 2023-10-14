@@ -1,0 +1,53 @@
+{
+  "type": "gates:shadow_stone_ore",
+  "config": {
+    "size": 0,
+    "discard_chance_on_air_exposure": 0,
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "gates:cursedstone"
+          }
+        },
+        "state": {
+          "Name": "gates:shadow_stone_ore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "gates:cursedandisite"
+          }
+        },
+        "state": {
+          "Name": "gates:shadow_stone_ore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "gates:cursedgranite"
+          }
+        },
+        "state": {
+          "Name": "gates:shadow_stone_ore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "gates:curseddiorite"
+          }
+        },
+        "state": {
+          "Name": "gates:shadow_stone_ore"
+        }
+      }
+    ]
+  }
+}

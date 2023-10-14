@@ -1,0 +1,3566 @@
+{
+  "mod_elements": [
+    {
+      "name": "CursedPortalblock",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cursed_portalblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gates/models/block/cursed_portalblock.json",
+          "src/main/java/net/mcreator/gates/block/CursedPortalblockBlock.java",
+          "src/main/resources/assets/gates/models/item/cursed_portalblock.json",
+          "src/main/resources/assets/gates/blockstates/cursed_portalblock.json"
+        ]
+      }
+    },
+    {
+      "name": "Gates",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gates",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Cursedshared",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cursedshared",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gates/item/CursedsharedItem.java",
+          "src/main/resources/assets/gates/models/item/cursedshared.json"
+        ]
+      }
+    },
+    {
+      "name": "Cursedcore",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cursedcore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gates/item/CursedcoreItem.java",
+          "src/main/resources/assets/gates/models/item/cursedcore.json"
+        ]
+      }
+    },
+    {
+      "name": "Cursedportal",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cursedportal",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/recipes/cursedportal.json"
+        ]
+      }
+    },
+    {
+      "name": "Cursedgrass",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cursedgrass",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gates/block/CursedgrassBlock.java",
+          "src/main/resources/assets/gates/models/item/cursedgrass.json",
+          "src/main/resources/assets/gates/blockstates/cursedgrass.json",
+          "src/main/resources/assets/gates/models/block/cursedgrass.json"
+        ]
+      }
+    },
+    {
+      "name": "Curseddirt",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "curseddirt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gates/block/CurseddirtBlock.java",
+          "src/main/resources/assets/gates/models/block/curseddirt.json",
+          "src/main/resources/assets/gates/blockstates/curseddirt.json",
+          "src/main/resources/assets/gates/models/item/curseddirt.json"
+        ]
+      }
+    },
+    {
+      "name": "CursedarmorArmor",
+      "type": "armor",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cursedarmor_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gates/models/item/cursedarmor_armor_leggings.json",
+          "src/main/java/net/mcreator/gates/item/CursedarmorArmorItem.java",
+          "src/main/resources/assets/gates/models/item/cursedarmor_armor_chestplate.json",
+          "src/main/resources/assets/gates/models/item/cursedarmor_armor_helmet.json",
+          "src/main/resources/assets/gates/models/item/cursedarmor_armor_boots.json"
+        ]
+      }
+    },
+    {
+      "name": "CursedarmorArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cursedarmor_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/recipes/cursedarmor_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CursedarmorArmorChestplateRecipe",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cursedarmor_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/recipes/cursedarmor_armor_chestplate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CursedarmorArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cursedarmor_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/recipes/cursedarmor_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CursedarmorArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cursedarmor_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/recipes/cursedarmor_armor_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Cursedcobblestone",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cursedcobblestone",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gates/block/CursedcobblestoneBlock.java",
+          "src/main/resources/data/gates/worldgen/configured_feature/cursedcobblestone.json",
+          "src/main/resources/data/gates/worldgen/placed_feature/cursedcobblestone.json",
+          "src/main/resources/assets/gates/models/item/cursedcobblestone.json",
+          "src/main/java/net/mcreator/gates/world/features/ores/CursedcobblestoneFeature.java",
+          "src/main/resources/data/gates/forge/biome_modifier/cursedcobblestone_biome_modifier.json",
+          "src/main/resources/assets/gates/blockstates/cursedcobblestone.json",
+          "src/main/resources/assets/gates/models/block/cursedcobblestone.json"
+        ]
+      }
+    },
+    {
+      "name": "Cursedstone",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cursedstone",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/worldgen/configured_feature/cursedstone.json",
+          "src/main/resources/data/gates/worldgen/placed_feature/cursedstone.json",
+          "src/main/resources/data/gates/forge/biome_modifier/cursedstone_biome_modifier.json",
+          "src/main/resources/assets/gates/models/block/cursedstone.json",
+          "src/main/resources/assets/gates/blockstates/cursedstone.json",
+          "src/main/java/net/mcreator/gates/block/CursedstoneBlock.java",
+          "src/main/resources/assets/gates/models/item/cursedstone.json",
+          "src/main/java/net/mcreator/gates/world/features/ores/CursedstoneFeature.java"
+        ]
+      }
+    },
+    {
+      "name": "CursedtoolsPickaxe",
+      "type": "tool",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cursedtools_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gates/item/CursedtoolsPickaxeItem.java",
+          "src/main/resources/assets/gates/models/item/cursedtools_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "CursedtoolsAxe",
+      "type": "tool",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cursedtools_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gates/item/CursedtoolsAxeItem.java",
+          "src/main/resources/assets/gates/models/item/cursedtools_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "CursedtoolsSword",
+      "type": "tool",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cursedtools_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gates/models/item/cursedtools_sword.json",
+          "src/main/java/net/mcreator/gates/item/CursedtoolsSwordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CursedtoolsShovel",
+      "type": "tool",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cursedtools_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gates/item/CursedtoolsShovelItem.java",
+          "src/main/resources/assets/gates/models/item/cursedtools_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "CursedtoolsHoe",
+      "type": "tool",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cursedtools_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gates/item/CursedtoolsHoeItem.java",
+          "src/main/resources/assets/gates/models/item/cursedtools_hoe.json"
+        ]
+      }
+    },
+    {
+      "name": "CursedtoolsPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cursedtools_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/recipes/cursedtools_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CursedtoolsAxeRecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cursedtools_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/recipes/cursedtools_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CursedtoolsSwordRecipe",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cursedtools_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/recipes/cursedtools_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CursedtoolsShovelRecipe",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cursedtools_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/recipes/cursedtools_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CursedtoolsHoeRecipe",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cursedtools_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/recipes/cursedtools_hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CursedIngot",
+      "type": "item",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cursed_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gates/models/item/cursed_ingot.json",
+          "src/main/java/net/mcreator/gates/item/CursedIngotItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CursedOre",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cursed_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gates/models/item/cursed_ore.json",
+          "src/main/resources/assets/gates/blockstates/cursed_ore.json",
+          "src/main/resources/data/gates/forge/biome_modifier/cursed_ore_biome_modifier.json",
+          "src/main/resources/assets/gates/models/block/cursed_ore.json",
+          "src/main/java/net/mcreator/gates/block/CursedOreBlock.java",
+          "src/main/resources/data/gates/worldgen/placed_feature/cursed_ore.json",
+          "src/main/resources/data/gates/worldgen/configured_feature/cursed_ore.json",
+          "src/main/java/net/mcreator/gates/world/features/ores/CursedOreFeature.java"
+        ]
+      }
+    },
+    {
+      "name": "CursedBlock",
+      "type": "block",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cursed_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gates/blockstates/cursed_block.json",
+          "src/main/java/net/mcreator/gates/block/CursedBlockBlock.java",
+          "src/main/resources/assets/gates/models/block/cursed_block.json",
+          "src/main/resources/assets/gates/models/item/cursed_block.json"
+        ]
+      }
+    },
+    {
+      "name": "CursedOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cursed_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/recipes/cursed_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CursedBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cursed_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/recipes/cursed_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CursedOreSmelting",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cursed_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/recipes/cursed_ore_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "Cursedrawore",
+      "type": "item",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cursedrawore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gates/models/item/cursedrawore.json",
+          "src/main/java/net/mcreator/gates/item/CursedraworeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Curropted",
+      "type": "item",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "curropted",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gates/models/item/curropted.json",
+          "src/main/java/net/mcreator/gates/item/CurroptedItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CurroptedOre",
+      "type": "block",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "curropted_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/worldgen/placed_feature/curropted_ore.json",
+          "src/main/resources/data/gates/worldgen/configured_feature/curropted_ore.json",
+          "src/main/resources/assets/gates/blockstates/curropted_ore.json",
+          "src/main/java/net/mcreator/gates/world/features/ores/CurroptedOreFeature.java",
+          "src/main/resources/assets/gates/models/block/curropted_ore.json",
+          "src/main/java/net/mcreator/gates/block/CurroptedOreBlock.java",
+          "src/main/resources/data/gates/forge/biome_modifier/curropted_ore_biome_modifier.json",
+          "src/main/resources/assets/gates/models/item/curropted_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "CurroptedBlock",
+      "type": "block",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "curropted_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gates/block/CurroptedBlockBlock.java",
+          "src/main/resources/assets/gates/models/block/curropted_block.json",
+          "src/main/resources/assets/gates/models/item/curropted_block.json",
+          "src/main/resources/assets/gates/blockstates/curropted_block.json"
+        ]
+      }
+    },
+    {
+      "name": "CurroptedOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "curropted_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/recipes/curropted_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CurroptedBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "curropted_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/recipes/curropted_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CurroptedOreSmelting",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "curropted_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/recipes/curropted_ore_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "Curropted_toolsPickaxe",
+      "type": "tool",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "curropted_tools_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gates/models/item/curropted_tools_pickaxe.json",
+          "src/main/java/net/mcreator/gates/item/Curropted_toolsPickaxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Curropted_toolsAxe",
+      "type": "tool",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "curropted_tools_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gates/models/item/curropted_tools_axe.json",
+          "src/main/java/net/mcreator/gates/item/Curropted_toolsAxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Curropted_toolsSword",
+      "type": "tool",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "curropted_tools_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gates/item/Curropted_toolsSwordItem.java",
+          "src/main/resources/assets/gates/models/item/curropted_tools_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "Curropted_toolsShovel",
+      "type": "tool",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "curropted_tools_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gates/models/item/curropted_tools_shovel.json",
+          "src/main/java/net/mcreator/gates/item/Curropted_toolsShovelItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Curropted_toolsHoe",
+      "type": "tool",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "curropted_tools_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gates/models/item/curropted_tools_hoe.json",
+          "src/main/java/net/mcreator/gates/item/Curropted_toolsHoeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Curropted_toolsPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "curropted_tools_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/recipes/curropted_tools_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Curropted_toolsAxeRecipe",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "curropted_tools_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/recipes/curropted_tools_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Curropted_toolsSwordRecipe",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "curropted_tools_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/recipes/curropted_tools_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Curropted_toolsShovelRecipe",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "curropted_tools_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/recipes/curropted_tools_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Curropted_toolsHoeRecipe",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "curropted_tools_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/recipes/curropted_tools_hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Curropted_armorArmor",
+      "type": "armor",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "curropted_armor_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gates/models/item/curropted_armor_armor_leggings.json",
+          "src/main/resources/assets/gates/models/item/curropted_armor_armor_helmet.json",
+          "src/main/resources/assets/gates/models/item/curropted_armor_armor_chestplate.json",
+          "src/main/java/net/mcreator/gates/item/Curropted_armorArmorItem.java",
+          "src/main/resources/assets/gates/models/item/curropted_armor_armor_boots.json"
+        ]
+      }
+    },
+    {
+      "name": "Curropted_armorArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "curropted_armor_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/recipes/curropted_armor_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Curropted_armorArmorChestplateRecipe",
+      "type": "recipe",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "curropted_armor_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/recipes/curropted_armor_armor_chestplate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Curropted_armorArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "curropted_armor_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/recipes/curropted_armor_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Curropted_armorArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "curropted_armor_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/recipes/curropted_armor_armor_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Cursedsand",
+      "type": "block",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cursedsand",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gates/blockstates/cursedsand.json",
+          "src/main/resources/assets/gates/models/block/cursedsand.json",
+          "src/main/java/net/mcreator/gates/block/CursedsandBlock.java",
+          "src/main/resources/assets/gates/models/item/cursedsand.json"
+        ]
+      }
+    },
+    {
+      "name": "CursedWood",
+      "type": "block",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cursed_wood",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gates/block/CursedWoodBlock.java",
+          "src/main/resources/assets/gates/models/block/cursed_wood.json",
+          "src/main/resources/assets/gates/models/item/cursed_wood.json",
+          "src/main/resources/assets/gates/blockstates/cursed_wood.json"
+        ]
+      }
+    },
+    {
+      "name": "CursedLog",
+      "type": "block",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cursed_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gates/models/block/cursed_log.json",
+          "src/main/resources/assets/gates/models/item/cursed_log.json",
+          "src/main/resources/assets/gates/blockstates/cursed_log.json",
+          "src/main/java/net/mcreator/gates/block/CursedLogBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "CursedPlanks",
+      "type": "block",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cursed_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gates/models/item/cursed_planks.json",
+          "src/main/resources/assets/gates/models/block/cursed_planks.json",
+          "src/main/java/net/mcreator/gates/block/CursedPlanksBlock.java",
+          "src/main/resources/assets/gates/blockstates/cursed_planks.json"
+        ]
+      }
+    },
+    {
+      "name": "CursedLeaves",
+      "type": "block",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cursed_leaves",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gates/block/CursedLeavesBlock.java",
+          "src/main/resources/assets/gates/models/block/cursed_leaves.json",
+          "src/main/resources/assets/gates/blockstates/cursed_leaves.json",
+          "src/main/resources/assets/gates/models/item/cursed_leaves.json"
+        ]
+      }
+    },
+    {
+      "name": "CursedStairs",
+      "type": "block",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cursed_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gates/models/block/cursed_stairs_outer.json",
+          "src/main/resources/assets/gates/models/item/cursed_stairs.json",
+          "src/main/resources/assets/gates/models/block/cursed_stairs.json",
+          "src/main/resources/assets/gates/models/block/cursed_stairs_inner.json",
+          "src/main/java/net/mcreator/gates/block/CursedStairsBlock.java",
+          "src/main/resources/assets/gates/blockstates/cursed_stairs.json"
+        ]
+      }
+    },
+    {
+      "name": "CursedSlab",
+      "type": "block",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cursed_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gates/models/block/cursed_slab_top.json",
+          "src/main/resources/assets/gates/models/item/cursed_slab.json",
+          "src/main/resources/assets/gates/models/block/cursed_slab_full.json",
+          "src/main/java/net/mcreator/gates/block/CursedSlabBlock.java",
+          "src/main/resources/assets/gates/blockstates/cursed_slab.json",
+          "src/main/resources/assets/gates/models/block/cursed_slab.json"
+        ]
+      }
+    },
+    {
+      "name": "CursedFence",
+      "type": "block",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cursed_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gates/blockstates/cursed_fence.json",
+          "src/main/java/net/mcreator/gates/block/CursedFenceBlock.java",
+          "src/main/resources/assets/gates/models/item/cursed_fence.json",
+          "src/main/resources/assets/gates/models/block/cursed_fence.json",
+          "src/main/resources/assets/gates/models/block/cursed_fence_inventory.json",
+          "src/main/resources/assets/gates/models/block/cursed_fence_post.json"
+        ]
+      }
+    },
+    {
+      "name": "CursedFenceGate",
+      "type": "block",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cursed_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gates/models/item/cursed_fence_gate.json",
+          "src/main/resources/assets/gates/models/block/cursed_fence_gate_wall_open.json",
+          "src/main/resources/assets/gates/blockstates/cursed_fence_gate.json",
+          "src/main/resources/assets/gates/models/block/cursed_fence_gate.json",
+          "src/main/java/net/mcreator/gates/block/CursedFenceGateBlock.java",
+          "src/main/resources/assets/gates/models/block/cursed_fence_gate_open.json",
+          "src/main/resources/assets/gates/models/block/cursed_fence_gate_wall.json"
+        ]
+      }
+    },
+    {
+      "name": "CursedPressurePlate",
+      "type": "block",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cursed_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gates/models/block/cursed_pressure_plate_down.json",
+          "src/main/java/net/mcreator/gates/block/CursedPressurePlateBlock.java",
+          "src/main/resources/assets/gates/blockstates/cursed_pressure_plate.json",
+          "src/main/resources/assets/gates/models/block/cursed_pressure_plate.json",
+          "src/main/resources/assets/gates/models/item/cursed_pressure_plate.json"
+        ]
+      }
+    },
+    {
+      "name": "CursedButton",
+      "type": "block",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cursed_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gates/models/block/cursed_button.json",
+          "src/main/resources/assets/gates/models/item/cursed_button.json",
+          "src/main/java/net/mcreator/gates/block/CursedButtonBlock.java",
+          "src/main/resources/assets/gates/blockstates/cursed_button.json",
+          "src/main/resources/assets/gates/models/block/cursed_button_pressed.json",
+          "src/main/resources/assets/gates/models/block/cursed_button_inventory.json"
+        ]
+      }
+    },
+    {
+      "name": "CursedItemsTag",
+      "type": "tag",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cursed_items_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/cursed_log.json"
+        ]
+      }
+    },
+    {
+      "name": "CursedWoodRecipe",
+      "type": "recipe",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cursed_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/recipes/cursed_wood_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CursedPlanksRecipe",
+      "type": "recipe",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cursed_planks_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/recipes/cursed_planks_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CursedStairsRecipe",
+      "type": "recipe",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cursed_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/recipes/cursed_stairs_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CursedSlabRecipe",
+      "type": "recipe",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cursed_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/recipes/cursed_slab_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CursedFenceRecipe",
+      "type": "recipe",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cursed_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/recipes/cursed_fence_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CursedFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cursed_fence_gate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/recipes/cursed_fence_gate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CursedPressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cursed_pressure_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/recipes/cursed_pressure_plate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CursedButtonRecipe",
+      "type": "recipe",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cursed_button_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/recipes/cursed_button_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CursedStickRecipe",
+      "type": "recipe",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cursed_stick_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/recipes/cursed_stick_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Tainted_oakWood",
+      "type": "block",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tainted_oak_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gates/models/item/tainted_oak_wood.json",
+          "src/main/java/net/mcreator/gates/block/Tainted_oakWoodBlock.java",
+          "src/main/resources/assets/gates/blockstates/tainted_oak_wood.json",
+          "src/main/resources/assets/gates/models/block/tainted_oak_wood.json"
+        ]
+      }
+    },
+    {
+      "name": "Tainted_oakLog",
+      "type": "block",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tainted_oak_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gates/models/block/tainted_oak_log.json",
+          "src/main/java/net/mcreator/gates/block/Tainted_oakLogBlock.java",
+          "src/main/resources/assets/gates/models/item/tainted_oak_log.json",
+          "src/main/resources/assets/gates/blockstates/tainted_oak_log.json"
+        ]
+      }
+    },
+    {
+      "name": "Tainted_oakPlanks",
+      "type": "block",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tainted_oak_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gates/blockstates/tainted_oak_planks.json",
+          "src/main/resources/assets/gates/models/block/tainted_oak_planks.json",
+          "src/main/resources/assets/gates/models/item/tainted_oak_planks.json",
+          "src/main/java/net/mcreator/gates/block/Tainted_oakPlanksBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Tainted_oakLeaves",
+      "type": "block",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tainted_oak_leaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gates/models/item/tainted_oak_leaves.json",
+          "src/main/resources/assets/gates/models/block/tainted_oak_leaves.json",
+          "src/main/java/net/mcreator/gates/block/Tainted_oakLeavesBlock.java",
+          "src/main/resources/assets/gates/blockstates/tainted_oak_leaves.json"
+        ]
+      }
+    },
+    {
+      "name": "Tainted_oakStairs",
+      "type": "block",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tainted_oak_stairs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gates/block/Tainted_oakStairsBlock.java",
+          "src/main/resources/assets/gates/models/block/tainted_oak_stairs_outer.json",
+          "src/main/resources/assets/gates/models/item/tainted_oak_stairs.json",
+          "src/main/resources/assets/gates/models/block/tainted_oak_stairs_inner.json",
+          "src/main/resources/assets/gates/blockstates/tainted_oak_stairs.json",
+          "src/main/resources/assets/gates/models/block/tainted_oak_stairs.json"
+        ]
+      }
+    },
+    {
+      "name": "Tainted_oakSlab",
+      "type": "block",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tainted_oak_slab",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gates/block/Tainted_oakSlabBlock.java",
+          "src/main/resources/assets/gates/blockstates/tainted_oak_slab.json",
+          "src/main/resources/assets/gates/models/block/tainted_oak_slab.json",
+          "src/main/resources/assets/gates/models/block/tainted_oak_slab_top.json",
+          "src/main/resources/assets/gates/models/item/tainted_oak_slab.json",
+          "src/main/resources/assets/gates/models/block/tainted_oak_slab_full.json"
+        ]
+      }
+    },
+    {
+      "name": "Tainted_oakFence",
+      "type": "block",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tainted_oak_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gates/models/item/tainted_oak_fence.json",
+          "src/main/resources/assets/gates/models/block/tainted_oak_fence_post.json",
+          "src/main/resources/assets/gates/models/block/tainted_oak_fence_inventory.json",
+          "src/main/java/net/mcreator/gates/block/Tainted_oakFenceBlock.java",
+          "src/main/resources/assets/gates/blockstates/tainted_oak_fence.json",
+          "src/main/resources/assets/gates/models/block/tainted_oak_fence.json"
+        ]
+      }
+    },
+    {
+      "name": "Tainted_oakFenceGate",
+      "type": "block",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tainted_oak_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gates/models/block/tainted_oak_fence_gate.json",
+          "src/main/resources/assets/gates/models/block/tainted_oak_fence_gate_open.json",
+          "src/main/resources/assets/gates/models/block/tainted_oak_fence_gate_wall_open.json",
+          "src/main/resources/assets/gates/models/item/tainted_oak_fence_gate.json",
+          "src/main/java/net/mcreator/gates/block/Tainted_oakFenceGateBlock.java",
+          "src/main/resources/assets/gates/blockstates/tainted_oak_fence_gate.json",
+          "src/main/resources/assets/gates/models/block/tainted_oak_fence_gate_wall.json"
+        ]
+      }
+    },
+    {
+      "name": "Tainted_oakPressurePlate",
+      "type": "block",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tainted_oak_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gates/models/block/tainted_oak_pressure_plate_down.json",
+          "src/main/resources/assets/gates/blockstates/tainted_oak_pressure_plate.json",
+          "src/main/resources/assets/gates/models/item/tainted_oak_pressure_plate.json",
+          "src/main/resources/assets/gates/models/block/tainted_oak_pressure_plate.json",
+          "src/main/java/net/mcreator/gates/block/Tainted_oakPressurePlateBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Tainted_oakButton",
+      "type": "block",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tainted_oak_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gates/blockstates/tainted_oak_button.json",
+          "src/main/java/net/mcreator/gates/block/Tainted_oakButtonBlock.java",
+          "src/main/resources/assets/gates/models/block/tainted_oak_button_inventory.json",
+          "src/main/resources/assets/gates/models/block/tainted_oak_button.json",
+          "src/main/resources/assets/gates/models/item/tainted_oak_button.json",
+          "src/main/resources/assets/gates/models/block/tainted_oak_button_pressed.json"
+        ]
+      }
+    },
+    {
+      "name": "Tainted_oakItemsTag",
+      "type": "tag",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tainted_oak_items_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/tainted_oak_log.json"
+        ]
+      }
+    },
+    {
+      "name": "Tainted_oakWoodRecipe",
+      "type": "recipe",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tainted_oak_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/recipes/tainted_oak_wood_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Tainted_oakPlanksRecipe",
+      "type": "recipe",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tainted_oak_planks_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/recipes/tainted_oak_planks_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Tainted_oakStairsRecipe",
+      "type": "recipe",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tainted_oak_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/recipes/tainted_oak_stairs_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Tainted_oakSlabRecipe",
+      "type": "recipe",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tainted_oak_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/recipes/tainted_oak_slab_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Tainted_oakFenceRecipe",
+      "type": "recipe",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tainted_oak_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/recipes/tainted_oak_fence_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Tainted_oakFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tainted_oak_fence_gate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/recipes/tainted_oak_fence_gate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Tainted_oakPressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tainted_oak_pressure_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/recipes/tainted_oak_pressure_plate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Tainted_oakButtonRecipe",
+      "type": "recipe",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tainted_oak_button_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/recipes/tainted_oak_button_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Tainted_oakStickRecipe",
+      "type": "recipe",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tainted_oak_stick_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/recipes/tainted_oak_stick_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Soulwood_treeWood",
+      "type": "block",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soulwood_tree_wood",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gates/block/Soulwood_treeWoodBlock.java",
+          "src/main/resources/assets/gates/models/item/soulwood_tree_wood.json",
+          "src/main/resources/assets/gates/blockstates/soulwood_tree_wood.json",
+          "src/main/resources/assets/gates/models/block/soulwood_tree_wood.json"
+        ]
+      }
+    },
+    {
+      "name": "Soulwood_treeLog",
+      "type": "block",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soulwood_tree_log",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gates/block/Soulwood_treeLogBlock.java",
+          "src/main/resources/assets/gates/blockstates/soulwood_tree_log.json",
+          "src/main/resources/assets/gates/models/block/soulwood_tree_log.json",
+          "src/main/resources/assets/gates/models/item/soulwood_tree_log.json"
+        ]
+      }
+    },
+    {
+      "name": "Soulwood_treePlanks",
+      "type": "block",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soulwood_tree_planks",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gates/block/Soulwood_treePlanksBlock.java",
+          "src/main/resources/assets/gates/blockstates/soulwood_tree_planks.json",
+          "src/main/resources/assets/gates/models/block/soulwood_tree_planks.json",
+          "src/main/resources/assets/gates/models/item/soulwood_tree_planks.json"
+        ]
+      }
+    },
+    {
+      "name": "Soulwood_treeLeaves",
+      "type": "block",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soulwood_tree_leaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gates/models/item/soulwood_tree_leaves.json",
+          "src/main/resources/assets/gates/models/block/soulwood_tree_leaves.json",
+          "src/main/resources/assets/gates/blockstates/soulwood_tree_leaves.json",
+          "src/main/java/net/mcreator/gates/block/Soulwood_treeLeavesBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Soulwood_treeStairs",
+      "type": "block",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soulwood_tree_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gates/models/block/soulwood_tree_stairs_outer.json",
+          "src/main/resources/assets/gates/models/block/soulwood_tree_stairs.json",
+          "src/main/resources/assets/gates/blockstates/soulwood_tree_stairs.json",
+          "src/main/java/net/mcreator/gates/block/Soulwood_treeStairsBlock.java",
+          "src/main/resources/assets/gates/models/item/soulwood_tree_stairs.json",
+          "src/main/resources/assets/gates/models/block/soulwood_tree_stairs_inner.json"
+        ]
+      }
+    },
+    {
+      "name": "Soulwood_treeSlab",
+      "type": "block",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soulwood_tree_slab",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gates/block/Soulwood_treeSlabBlock.java",
+          "src/main/resources/assets/gates/models/block/soulwood_tree_slab.json",
+          "src/main/resources/assets/gates/models/block/soulwood_tree_slab_top.json",
+          "src/main/resources/assets/gates/models/item/soulwood_tree_slab.json",
+          "src/main/resources/assets/gates/models/block/soulwood_tree_slab_full.json",
+          "src/main/resources/assets/gates/blockstates/soulwood_tree_slab.json"
+        ]
+      }
+    },
+    {
+      "name": "Soulwood_treeFence",
+      "type": "block",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soulwood_tree_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gates/models/item/soulwood_tree_fence.json",
+          "src/main/resources/assets/gates/models/block/soulwood_tree_fence.json",
+          "src/main/resources/assets/gates/models/block/soulwood_tree_fence_post.json",
+          "src/main/resources/assets/gates/models/block/soulwood_tree_fence_inventory.json",
+          "src/main/resources/assets/gates/blockstates/soulwood_tree_fence.json",
+          "src/main/java/net/mcreator/gates/block/Soulwood_treeFenceBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Soulwood_treeFenceGate",
+      "type": "block",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soulwood_tree_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gates/models/block/soulwood_tree_fence_gate_wall.json",
+          "src/main/resources/assets/gates/blockstates/soulwood_tree_fence_gate.json",
+          "src/main/resources/assets/gates/models/block/soulwood_tree_fence_gate_wall_open.json",
+          "src/main/resources/assets/gates/models/block/soulwood_tree_fence_gate.json",
+          "src/main/java/net/mcreator/gates/block/Soulwood_treeFenceGateBlock.java",
+          "src/main/resources/assets/gates/models/block/soulwood_tree_fence_gate_open.json",
+          "src/main/resources/assets/gates/models/item/soulwood_tree_fence_gate.json"
+        ]
+      }
+    },
+    {
+      "name": "Soulwood_treePressurePlate",
+      "type": "block",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soulwood_tree_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gates/models/item/soulwood_tree_pressure_plate.json",
+          "src/main/resources/assets/gates/models/block/soulwood_tree_pressure_plate_down.json",
+          "src/main/java/net/mcreator/gates/block/Soulwood_treePressurePlateBlock.java",
+          "src/main/resources/assets/gates/blockstates/soulwood_tree_pressure_plate.json",
+          "src/main/resources/assets/gates/models/block/soulwood_tree_pressure_plate.json"
+        ]
+      }
+    },
+    {
+      "name": "Soulwood_treeButton",
+      "type": "block",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soulwood_tree_button",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gates/block/Soulwood_treeButtonBlock.java",
+          "src/main/resources/assets/gates/models/block/soulwood_tree_button_inventory.json",
+          "src/main/resources/assets/gates/models/block/soulwood_tree_button.json",
+          "src/main/resources/assets/gates/models/block/soulwood_tree_button_pressed.json",
+          "src/main/resources/assets/gates/blockstates/soulwood_tree_button.json",
+          "src/main/resources/assets/gates/models/item/soulwood_tree_button.json"
+        ]
+      }
+    },
+    {
+      "name": "Soulwood_treeItemsTag",
+      "type": "tag",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soulwood_tree_items_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/soulwood_tree_log.json"
+        ]
+      }
+    },
+    {
+      "name": "Soulwood_treeWoodRecipe",
+      "type": "recipe",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soulwood_tree_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/recipes/soulwood_tree_wood_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Soulwood_treePlanksRecipe",
+      "type": "recipe",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soulwood_tree_planks_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/recipes/soulwood_tree_planks_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Soulwood_treeStairsRecipe",
+      "type": "recipe",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soulwood_tree_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/recipes/soulwood_tree_stairs_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Soulwood_treeSlabRecipe",
+      "type": "recipe",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soulwood_tree_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/recipes/soulwood_tree_slab_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Soulwood_treeFenceRecipe",
+      "type": "recipe",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soulwood_tree_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/recipes/soulwood_tree_fence_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Soulwood_treeFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soulwood_tree_fence_gate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/recipes/soulwood_tree_fence_gate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Soulwood_treePressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soulwood_tree_pressure_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/recipes/soulwood_tree_pressure_plate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Soulwood_treeButtonRecipe",
+      "type": "recipe",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soulwood_tree_button_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/recipes/soulwood_tree_button_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Soulwood_treeStickRecipe",
+      "type": "recipe",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soulwood_tree_stick_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/recipes/soulwood_tree_stick_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "WraithwoodWood",
+      "type": "block",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wraithwood_wood",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gates/block/WraithwoodWoodBlock.java",
+          "src/main/resources/assets/gates/models/item/wraithwood_wood.json",
+          "src/main/resources/assets/gates/models/block/wraithwood_wood.json",
+          "src/main/resources/assets/gates/blockstates/wraithwood_wood.json"
+        ]
+      }
+    },
+    {
+      "name": "WraithwoodLog",
+      "type": "block",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wraithwood_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gates/models/block/wraithwood_log.json",
+          "src/main/resources/assets/gates/blockstates/wraithwood_log.json",
+          "src/main/java/net/mcreator/gates/block/WraithwoodLogBlock.java",
+          "src/main/resources/assets/gates/models/item/wraithwood_log.json"
+        ]
+      }
+    },
+    {
+      "name": "WraithwoodPlanks",
+      "type": "block",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wraithwood_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gates/models/item/wraithwood_planks.json",
+          "src/main/java/net/mcreator/gates/block/WraithwoodPlanksBlock.java",
+          "src/main/resources/assets/gates/blockstates/wraithwood_planks.json",
+          "src/main/resources/assets/gates/models/block/wraithwood_planks.json"
+        ]
+      }
+    },
+    {
+      "name": "WraithwoodLeaves",
+      "type": "block",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wraithwood_leaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gates/blockstates/wraithwood_leaves.json",
+          "src/main/resources/assets/gates/models/block/wraithwood_leaves.json",
+          "src/main/java/net/mcreator/gates/block/WraithwoodLeavesBlock.java",
+          "src/main/resources/assets/gates/models/item/wraithwood_leaves.json"
+        ]
+      }
+    },
+    {
+      "name": "WraithwoodStairs",
+      "type": "block",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wraithwood_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gates/models/block/wraithwood_stairs_inner.json",
+          "src/main/resources/assets/gates/models/block/wraithwood_stairs_outer.json",
+          "src/main/resources/assets/gates/blockstates/wraithwood_stairs.json",
+          "src/main/resources/assets/gates/models/block/wraithwood_stairs.json",
+          "src/main/resources/assets/gates/models/item/wraithwood_stairs.json",
+          "src/main/java/net/mcreator/gates/block/WraithwoodStairsBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "WraithwoodSlab",
+      "type": "block",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wraithwood_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gates/models/item/wraithwood_slab.json",
+          "src/main/resources/assets/gates/models/block/wraithwood_slab.json",
+          "src/main/java/net/mcreator/gates/block/WraithwoodSlabBlock.java",
+          "src/main/resources/assets/gates/models/block/wraithwood_slab_full.json",
+          "src/main/resources/assets/gates/blockstates/wraithwood_slab.json",
+          "src/main/resources/assets/gates/models/block/wraithwood_slab_top.json"
+        ]
+      }
+    },
+    {
+      "name": "WraithwoodFence",
+      "type": "block",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wraithwood_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gates/models/block/wraithwood_fence_inventory.json",
+          "src/main/resources/assets/gates/models/block/wraithwood_fence_post.json",
+          "src/main/java/net/mcreator/gates/block/WraithwoodFenceBlock.java",
+          "src/main/resources/assets/gates/models/item/wraithwood_fence.json",
+          "src/main/resources/assets/gates/blockstates/wraithwood_fence.json",
+          "src/main/resources/assets/gates/models/block/wraithwood_fence.json"
+        ]
+      }
+    },
+    {
+      "name": "WraithwoodFenceGate",
+      "type": "block",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wraithwood_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gates/models/item/wraithwood_fence_gate.json",
+          "src/main/resources/assets/gates/blockstates/wraithwood_fence_gate.json",
+          "src/main/resources/assets/gates/models/block/wraithwood_fence_gate.json",
+          "src/main/resources/assets/gates/models/block/wraithwood_fence_gate_wall.json",
+          "src/main/resources/assets/gates/models/block/wraithwood_fence_gate_open.json",
+          "src/main/resources/assets/gates/models/block/wraithwood_fence_gate_wall_open.json",
+          "src/main/java/net/mcreator/gates/block/WraithwoodFenceGateBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "WraithwoodPressurePlate",
+      "type": "block",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wraithwood_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gates/block/WraithwoodPressurePlateBlock.java",
+          "src/main/resources/assets/gates/blockstates/wraithwood_pressure_plate.json",
+          "src/main/resources/assets/gates/models/item/wraithwood_pressure_plate.json",
+          "src/main/resources/assets/gates/models/block/wraithwood_pressure_plate.json",
+          "src/main/resources/assets/gates/models/block/wraithwood_pressure_plate_down.json"
+        ]
+      }
+    },
+    {
+      "name": "WraithwoodButton",
+      "type": "block",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wraithwood_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gates/models/block/wraithwood_button_inventory.json",
+          "src/main/resources/assets/gates/models/item/wraithwood_button.json",
+          "src/main/java/net/mcreator/gates/block/WraithwoodButtonBlock.java",
+          "src/main/resources/assets/gates/models/block/wraithwood_button_pressed.json",
+          "src/main/resources/assets/gates/blockstates/wraithwood_button.json",
+          "src/main/resources/assets/gates/models/block/wraithwood_button.json"
+        ]
+      }
+    },
+    {
+      "name": "WraithwoodItemsTag",
+      "type": "tag",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wraithwood_items_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/wraithwood_log.json"
+        ]
+      }
+    },
+    {
+      "name": "WraithwoodWoodRecipe",
+      "type": "recipe",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wraithwood_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/recipes/wraithwood_wood_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "WraithwoodPlanksRecipe",
+      "type": "recipe",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wraithwood_planks_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/recipes/wraithwood_planks_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "WraithwoodStairsRecipe",
+      "type": "recipe",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wraithwood_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/recipes/wraithwood_stairs_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "WraithwoodSlabRecipe",
+      "type": "recipe",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wraithwood_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/recipes/wraithwood_slab_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "WraithwoodFenceRecipe",
+      "type": "recipe",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wraithwood_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/recipes/wraithwood_fence_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "WraithwoodFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wraithwood_fence_gate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/recipes/wraithwood_fence_gate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "WraithwoodPressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wraithwood_pressure_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/recipes/wraithwood_pressure_plate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "WraithwoodButtonRecipe",
+      "type": "recipe",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wraithwood_button_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/recipes/wraithwood_button_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "WraithwoodStickRecipe",
+      "type": "recipe",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wraithwood_stick_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/recipes/wraithwood_stick_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CursedPlains",
+      "type": "biome",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cursed_plains",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/worldgen/biome/cursed_plains.json",
+          "src/main/resources/data/gates/worldgen/configured_feature/cursed_plains_tree.json",
+          "src/main/resources/data/gates/worldgen/placed_feature/cursed_plains_tree.json"
+        ]
+      }
+    },
+    {
+      "name": "CursedForest",
+      "type": "biome",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cursed_forest",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/worldgen/biome/cursed_forest.json",
+          "src/main/resources/data/gates/worldgen/placed_feature/cursed_forest_tree.json",
+          "src/main/resources/data/gates/worldgen/configured_feature/cursed_forest_tree.json"
+        ]
+      }
+    },
+    {
+      "name": "Taintedgrass",
+      "type": "block",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "taintedgrass",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gates/models/block/taintedgrass.json",
+          "src/main/java/net/mcreator/gates/block/TaintedgrassBlock.java",
+          "src/main/resources/assets/gates/blockstates/taintedgrass.json",
+          "src/main/resources/assets/gates/models/item/taintedgrass.json"
+        ]
+      }
+    },
+    {
+      "name": "Tainteddirt",
+      "type": "block",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tainteddirt",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gates/models/block/tainteddirt.json",
+          "src/main/resources/assets/gates/blockstates/tainteddirt.json",
+          "src/main/resources/assets/gates/models/item/tainteddirt.json",
+          "src/main/java/net/mcreator/gates/block/TainteddirtBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Taintedlands",
+      "type": "biome",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "taintedlands",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/worldgen/biome/taintedlands.json",
+          "src/main/resources/data/gates/worldgen/configured_feature/taintedlands_tree.json",
+          "src/main/resources/data/gates/worldgen/placed_feature/taintedlands_tree.json"
+        ]
+      }
+    },
+    {
+      "name": "CuresdlighterRightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "curesdlighter_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gates/procedures/CuresdlighterRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "CursedRealm",
+      "type": "dimension",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cursed_realm",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gates/block/CursedRealmPortalBlock.java",
+          "src/main/resources/assets/gates/models/item/cursed_realm.json",
+          "src/main/java/net/mcreator/gates/world/teleporter/CursedRealmTeleporter.java",
+          "src/main/java/net/mcreator/gates/world/dimension/CursedRealmDimension.java",
+          "src/main/resources/assets/gates/blockstates/cursed_realm_portal.json",
+          "src/main/resources/assets/gates/models/block/cursed_realm_portal_ns.json",
+          "src/main/java/net/mcreator/gates/world/teleporter/CursedRealmPortalShape.java",
+          "src/main/resources/data/gates/dimension/cursed_realm.json",
+          "src/main/resources/data/gates/dimension_type/cursed_realm.json",
+          "src/main/java/net/mcreator/gates/item/CursedRealmItem.java",
+          "src/main/resources/assets/gates/models/block/cursed_realm_portal_ew.json"
+        ]
+      }
+    },
+    {
+      "name": "Cursed",
+      "type": "achievement",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cursed",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/advancements/cursed.json"
+        ]
+      }
+    },
+    {
+      "name": "Curropteddirt",
+      "type": "block",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "curropteddirt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gates/world/features/ores/CurropteddirtFeature.java",
+          "src/main/java/net/mcreator/gates/block/CurropteddirtBlock.java",
+          "src/main/resources/data/gates/worldgen/configured_feature/curropteddirt.json",
+          "src/main/resources/data/gates/forge/biome_modifier/curropteddirt_biome_modifier.json",
+          "src/main/resources/assets/gates/models/block/curropteddirt.json",
+          "src/main/resources/assets/gates/models/item/curropteddirt.json",
+          "src/main/resources/data/gates/worldgen/placed_feature/curropteddirt.json",
+          "src/main/resources/assets/gates/blockstates/curropteddirt.json"
+        ]
+      }
+    },
+    {
+      "name": "Curroptedgrass",
+      "type": "block",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "curroptedgrass",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gates/block/CurroptedgrassBlock.java",
+          "src/main/resources/data/gates/worldgen/configured_feature/curroptedgrass.json",
+          "src/main/resources/assets/gates/blockstates/curroptedgrass.json",
+          "src/main/resources/assets/gates/models/block/curroptedgrass.json",
+          "src/main/resources/assets/gates/models/item/curroptedgrass.json",
+          "src/main/resources/data/gates/worldgen/placed_feature/curroptedgrass.json",
+          "src/main/java/net/mcreator/gates/world/features/ores/CurroptedgrassFeature.java",
+          "src/main/resources/data/gates/forge/biome_modifier/curroptedgrass_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "CurroptedTundra",
+      "type": "biome",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "curropted_tundra",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/worldgen/placed_feature/curropted_tundra_tree.json",
+          "src/main/resources/data/gates/worldgen/biome/curropted_tundra.json",
+          "src/main/resources/data/gates/worldgen/configured_feature/curropted_tundra_tree.json"
+        ]
+      }
+    },
+    {
+      "name": "Wraithforest",
+      "type": "biome",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wraithforest",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/worldgen/biome/wraithforest.json",
+          "src/main/resources/data/gates/worldgen/configured_feature/wraithforest_tree.json",
+          "src/main/resources/data/gates/worldgen/placed_feature/wraithforest_tree.json"
+        ]
+      }
+    },
+    {
+      "name": "Soulforest",
+      "type": "biome",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soulforest",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/worldgen/biome/soulforest.json",
+          "src/main/resources/data/gates/worldgen/configured_feature/soulforest_tree.json",
+          "src/main/resources/data/gates/worldgen/placed_feature/soulforest_tree.json"
+        ]
+      }
+    },
+    {
+      "name": "Soulmountains",
+      "type": "biome",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soulmountains",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/worldgen/biome/soulmountains.json",
+          "src/main/resources/data/gates/worldgen/configured_feature/soulmountains_tree.json",
+          "src/main/resources/data/gates/worldgen/placed_feature/soulmountains_tree.json"
+        ]
+      }
+    },
+    {
+      "name": "Shadow_stoneIngot",
+      "type": "item",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadow_stone_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gates/models/item/shadow_stone_ingot.json",
+          "src/main/java/net/mcreator/gates/item/Shadow_stoneIngotItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Shadow_stoneOre",
+      "type": "block",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadow_stone_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gates/blockstates/shadow_stone_ore.json",
+          "src/main/resources/assets/gates/models/block/shadow_stone_ore.json",
+          "src/main/java/net/mcreator/gates/block/Shadow_stoneOreBlock.java",
+          "src/main/java/net/mcreator/gates/world/features/ores/Shadow_stoneOreFeature.java",
+          "src/main/resources/data/gates/worldgen/placed_feature/shadow_stone_ore.json",
+          "src/main/resources/assets/gates/models/item/shadow_stone_ore.json",
+          "src/main/resources/data/gates/forge/biome_modifier/shadow_stone_ore_biome_modifier.json",
+          "src/main/resources/data/gates/worldgen/configured_feature/shadow_stone_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "Shadow_stoneBlock",
+      "type": "block",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadow_stone_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gates/models/item/shadow_stone_block.json",
+          "src/main/java/net/mcreator/gates/block/Shadow_stoneBlockBlock.java",
+          "src/main/resources/assets/gates/blockstates/shadow_stone_block.json",
+          "src/main/resources/assets/gates/models/block/shadow_stone_block.json"
+        ]
+      }
+    },
+    {
+      "name": "Shadow_stoneOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadow_stone_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/recipes/shadow_stone_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Shadow_stoneBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadow_stone_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/recipes/shadow_stone_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Shadow_stoneOreSmelting",
+      "type": "recipe",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadow_stone_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/recipes/shadow_stone_ore_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "Shadow_stonePickaxe",
+      "type": "tool",
+      "sortid": 200,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadow_stone_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gates/models/item/shadow_stone_pickaxe.json",
+          "src/main/java/net/mcreator/gates/item/Shadow_stonePickaxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Shadow_stoneAxe",
+      "type": "tool",
+      "sortid": 201,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadow_stone_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gates/item/Shadow_stoneAxeItem.java",
+          "src/main/resources/assets/gates/models/item/shadow_stone_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "Shadow_stoneSword",
+      "type": "tool",
+      "sortid": 202,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadow_stone_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gates/models/item/shadow_stone_sword.json",
+          "src/main/java/net/mcreator/gates/item/Shadow_stoneSwordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Shadow_stoneShovel",
+      "type": "tool",
+      "sortid": 203,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadow_stone_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gates/models/item/shadow_stone_shovel.json",
+          "src/main/java/net/mcreator/gates/item/Shadow_stoneShovelItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Shadow_stoneHoe",
+      "type": "tool",
+      "sortid": 204,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadow_stone_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gates/item/Shadow_stoneHoeItem.java",
+          "src/main/resources/assets/gates/models/item/shadow_stone_hoe.json"
+        ]
+      }
+    },
+    {
+      "name": "Shadow_stonePickaxeRecipe",
+      "type": "recipe",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadow_stone_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/recipes/shadow_stone_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Shadow_stoneAxeRecipe",
+      "type": "recipe",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadow_stone_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/recipes/shadow_stone_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Shadow_stoneSwordRecipe",
+      "type": "recipe",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadow_stone_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/recipes/shadow_stone_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Shadow_stoneShovelRecipe",
+      "type": "recipe",
+      "sortid": 170,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadow_stone_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/recipes/shadow_stone_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Shadow_stoneHoeRecipe",
+      "type": "recipe",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadow_stone_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/recipes/shadow_stone_hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Shadow_stoneArmor",
+      "type": "armor",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadow_stone_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gates/models/item/shadow_stone_armor_chestplate.json",
+          "src/main/java/net/mcreator/gates/item/Shadow_stoneArmorItem.java",
+          "src/main/resources/assets/gates/models/item/shadow_stone_armor_helmet.json",
+          "src/main/resources/assets/gates/models/item/shadow_stone_armor_boots.json",
+          "src/main/resources/assets/gates/models/item/shadow_stone_armor_leggings.json"
+        ]
+      }
+    },
+    {
+      "name": "Shadow_stoneArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 172,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadow_stone_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/recipes/shadow_stone_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Shadow_stoneArmorChestplateRecipe",
+      "type": "recipe",
+      "sortid": 173,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadow_stone_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/recipes/shadow_stone_armor_chestplate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Shadow_stoneArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 174,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadow_stone_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/recipes/shadow_stone_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Shadow_stoneArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 175,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadow_stone_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/recipes/shadow_stone_armor_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Tainted_crystalDust",
+      "type": "item",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tainted_crystal_dust",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gates/item/Tainted_crystalDustItem.java",
+          "src/main/resources/assets/gates/models/item/tainted_crystal_dust.json"
+        ]
+      }
+    },
+    {
+      "name": "Tainted_crystalOre",
+      "type": "block",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tainted_crystal_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gates/models/item/tainted_crystal_ore.json",
+          "src/main/resources/data/gates/forge/biome_modifier/tainted_crystal_ore_biome_modifier.json",
+          "src/main/java/net/mcreator/gates/block/Tainted_crystalOreBlock.java",
+          "src/main/resources/assets/gates/models/block/tainted_crystal_ore.json",
+          "src/main/java/net/mcreator/gates/world/features/ores/Tainted_crystalOreFeature.java",
+          "src/main/resources/data/gates/worldgen/placed_feature/tainted_crystal_ore.json",
+          "src/main/resources/assets/gates/blockstates/tainted_crystal_ore.json",
+          "src/main/resources/data/gates/worldgen/configured_feature/tainted_crystal_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "Tainted_crystalBlock",
+      "type": "block",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tainted_crystal_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gates/models/block/tainted_crystal_block.json",
+          "src/main/resources/assets/gates/blockstates/tainted_crystal_block.json",
+          "src/main/java/net/mcreator/gates/block/Tainted_crystalBlockBlock.java",
+          "src/main/resources/assets/gates/models/item/tainted_crystal_block.json"
+        ]
+      }
+    },
+    {
+      "name": "Tainted_crystalOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 176,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tainted_crystal_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/recipes/tainted_crystal_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Tainted_crystalBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 177,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tainted_crystal_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/recipes/tainted_crystal_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Tainted_crystalOreSmelting",
+      "type": "recipe",
+      "sortid": 178,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tainted_crystal_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/recipes/tainted_crystal_ore_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "Tainted_crystalPickaxe",
+      "type": "tool",
+      "sortid": 205,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tainted_crystal_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gates/models/item/tainted_crystal_pickaxe.json",
+          "src/main/java/net/mcreator/gates/item/Tainted_crystalPickaxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Tainted_crystalAxe",
+      "type": "tool",
+      "sortid": 206,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tainted_crystal_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gates/models/item/tainted_crystal_axe.json",
+          "src/main/java/net/mcreator/gates/item/Tainted_crystalAxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Tainted_crystalSword",
+      "type": "tool",
+      "sortid": 207,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tainted_crystal_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gates/models/item/tainted_crystal_sword.json",
+          "src/main/java/net/mcreator/gates/item/Tainted_crystalSwordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Tainted_crystalShovel",
+      "type": "tool",
+      "sortid": 208,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tainted_crystal_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gates/models/item/tainted_crystal_shovel.json",
+          "src/main/java/net/mcreator/gates/item/Tainted_crystalShovelItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Tainted_crystalHoe",
+      "type": "tool",
+      "sortid": 209,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tainted_crystal_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gates/item/Tainted_crystalHoeItem.java",
+          "src/main/resources/assets/gates/models/item/tainted_crystal_hoe.json"
+        ]
+      }
+    },
+    {
+      "name": "Tainted_crystalPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 179,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tainted_crystal_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/recipes/tainted_crystal_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Tainted_crystalAxeRecipe",
+      "type": "recipe",
+      "sortid": 180,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tainted_crystal_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/recipes/tainted_crystal_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Tainted_crystalSwordRecipe",
+      "type": "recipe",
+      "sortid": 181,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tainted_crystal_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/recipes/tainted_crystal_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Tainted_crystalShovelRecipe",
+      "type": "recipe",
+      "sortid": 182,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tainted_crystal_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/recipes/tainted_crystal_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Tainted_crystalHoeRecipe",
+      "type": "recipe",
+      "sortid": 183,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tainted_crystal_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/recipes/tainted_crystal_hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Tainted_crystalArmor",
+      "type": "armor",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tainted_crystal_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gates/models/item/tainted_crystal_armor_helmet.json",
+          "src/main/resources/assets/gates/models/item/tainted_crystal_armor_leggings.json",
+          "src/main/resources/assets/gates/models/item/tainted_crystal_armor_chestplate.json",
+          "src/main/resources/assets/gates/models/item/tainted_crystal_armor_boots.json",
+          "src/main/java/net/mcreator/gates/item/Tainted_crystalArmorItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Tainted_crystalArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 184,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tainted_crystal_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/recipes/tainted_crystal_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Tainted_crystalArmorChestplateRecipe",
+      "type": "recipe",
+      "sortid": 185,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tainted_crystal_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/recipes/tainted_crystal_armor_chestplate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Tainted_crystalArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 186,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tainted_crystal_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/recipes/tainted_crystal_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Tainted_crystalArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 187,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tainted_crystal_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/recipes/tainted_crystal_armor_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Cursed_metalIngot",
+      "type": "item",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cursed_metal_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gates/models/item/cursed_metal_ingot.json",
+          "src/main/java/net/mcreator/gates/item/Cursed_metalIngotItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Cursed_metalOre",
+      "type": "block",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cursed_metal_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gates/blockstates/cursed_metal_ore.json",
+          "src/main/resources/assets/gates/models/block/cursed_metal_ore.json",
+          "src/main/java/net/mcreator/gates/world/features/ores/Cursed_metalOreFeature.java",
+          "src/main/resources/data/gates/worldgen/configured_feature/cursed_metal_ore.json",
+          "src/main/resources/assets/gates/models/item/cursed_metal_ore.json",
+          "src/main/resources/data/gates/forge/biome_modifier/cursed_metal_ore_biome_modifier.json",
+          "src/main/resources/data/gates/worldgen/placed_feature/cursed_metal_ore.json",
+          "src/main/java/net/mcreator/gates/block/Cursed_metalOreBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Cursed_metalBlock",
+      "type": "block",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cursed_metal_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gates/block/Cursed_metalBlockBlock.java",
+          "src/main/resources/assets/gates/models/block/cursed_metal_block.json",
+          "src/main/resources/assets/gates/blockstates/cursed_metal_block.json",
+          "src/main/resources/assets/gates/models/item/cursed_metal_block.json"
+        ]
+      }
+    },
+    {
+      "name": "Cursed_metalOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 188,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cursed_metal_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/recipes/cursed_metal_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Cursed_metalBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 189,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cursed_metal_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/recipes/cursed_metal_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Cursed_metalOreSmelting",
+      "type": "recipe",
+      "sortid": 190,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cursed_metal_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/recipes/cursed_metal_ore_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "Cursed_metalPickaxe",
+      "type": "tool",
+      "sortid": 210,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cursed_metal_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gates/item/Cursed_metalPickaxeItem.java",
+          "src/main/resources/assets/gates/models/item/cursed_metal_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "Cursed_metalAxe",
+      "type": "tool",
+      "sortid": 211,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cursed_metal_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gates/models/item/cursed_metal_axe.json",
+          "src/main/java/net/mcreator/gates/item/Cursed_metalAxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Cursed_metalSword",
+      "type": "tool",
+      "sortid": 212,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cursed_metal_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gates/item/Cursed_metalSwordItem.java",
+          "src/main/resources/assets/gates/models/item/cursed_metal_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "Cursed_metalShovel",
+      "type": "tool",
+      "sortid": 213,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cursed_metal_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gates/item/Cursed_metalShovelItem.java",
+          "src/main/resources/assets/gates/models/item/cursed_metal_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "Cursed_metalHoe",
+      "type": "tool",
+      "sortid": 214,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cursed_metal_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gates/item/Cursed_metalHoeItem.java",
+          "src/main/resources/assets/gates/models/item/cursed_metal_hoe.json"
+        ]
+      }
+    },
+    {
+      "name": "Cursed_metalPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 191,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cursed_metal_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/recipes/cursed_metal_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Cursed_metalAxeRecipe",
+      "type": "recipe",
+      "sortid": 192,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cursed_metal_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/recipes/cursed_metal_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Cursed_metalSwordRecipe",
+      "type": "recipe",
+      "sortid": 193,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cursed_metal_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/recipes/cursed_metal_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Cursed_metalShovelRecipe",
+      "type": "recipe",
+      "sortid": 194,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cursed_metal_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/recipes/cursed_metal_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Cursed_metalHoeRecipe",
+      "type": "recipe",
+      "sortid": 195,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cursed_metal_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/recipes/cursed_metal_hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Cursed_metalArmor",
+      "type": "armor",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cursed_metal_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gates/models/item/cursed_metal_armor_helmet.json",
+          "src/main/resources/assets/gates/models/item/cursed_metal_armor_leggings.json",
+          "src/main/resources/assets/gates/models/item/cursed_metal_armor_chestplate.json",
+          "src/main/java/net/mcreator/gates/item/Cursed_metalArmorItem.java",
+          "src/main/resources/assets/gates/models/item/cursed_metal_armor_boots.json"
+        ]
+      }
+    },
+    {
+      "name": "Cursed_metalArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 196,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cursed_metal_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/recipes/cursed_metal_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Cursed_metalArmorChestplateRecipe",
+      "type": "recipe",
+      "sortid": 197,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cursed_metal_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/recipes/cursed_metal_armor_chestplate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Cursed_metalArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 198,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cursed_metal_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/recipes/cursed_metal_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Cursed_metalArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 199,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cursed_metal_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/recipes/cursed_metal_armor_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Shadowscape",
+      "type": "biome",
+      "sortid": 216,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadowscape",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/worldgen/configured_feature/shadowscape_tree.json",
+          "src/main/resources/data/gates/worldgen/biome/shadowscape.json",
+          "src/main/resources/data/gates/worldgen/placed_feature/shadowscape_tree.json"
+        ]
+      }
+    },
+    {
+      "name": "Curseddiorite",
+      "type": "block",
+      "sortid": 217,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "curseddiorite",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gates/block/CurseddioriteBlock.java",
+          "src/main/resources/assets/gates/models/item/curseddiorite.json",
+          "src/main/resources/assets/gates/blockstates/curseddiorite.json",
+          "src/main/resources/data/gates/worldgen/placed_feature/curseddiorite.json",
+          "src/main/java/net/mcreator/gates/world/features/ores/CurseddioriteFeature.java",
+          "src/main/resources/data/gates/forge/biome_modifier/curseddiorite_biome_modifier.json",
+          "src/main/resources/assets/gates/models/block/curseddiorite.json",
+          "src/main/resources/data/gates/worldgen/configured_feature/curseddiorite.json"
+        ]
+      }
+    },
+    {
+      "name": "Cursedandisite",
+      "type": "block",
+      "sortid": 218,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cursedandisite",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/forge/biome_modifier/cursedandisite_biome_modifier.json",
+          "src/main/resources/assets/gates/models/item/cursedandisite.json",
+          "src/main/resources/assets/gates/blockstates/cursedandisite.json",
+          "src/main/resources/assets/gates/models/block/cursedandisite.json",
+          "src/main/java/net/mcreator/gates/block/CursedandisiteBlock.java",
+          "src/main/java/net/mcreator/gates/world/features/ores/CursedandisiteFeature.java",
+          "src/main/resources/data/gates/worldgen/configured_feature/cursedandisite.json",
+          "src/main/resources/data/gates/worldgen/placed_feature/cursedandisite.json"
+        ]
+      }
+    },
+    {
+      "name": "Cursedgranite",
+      "type": "block",
+      "sortid": 219,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cursedgranite",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/forge/biome_modifier/cursedgranite_biome_modifier.json",
+          "src/main/resources/data/gates/worldgen/placed_feature/cursedgranite.json",
+          "src/main/resources/data/gates/worldgen/configured_feature/cursedgranite.json",
+          "src/main/java/net/mcreator/gates/block/CursedgraniteBlock.java",
+          "src/main/resources/assets/gates/models/block/cursedgranite.json",
+          "src/main/resources/assets/gates/blockstates/cursedgranite.json",
+          "src/main/resources/assets/gates/models/item/cursedgranite.json",
+          "src/main/java/net/mcreator/gates/world/features/ores/CursedgraniteFeature.java"
+        ]
+      }
+    },
+    {
+      "name": "Cursedbeing",
+      "type": "livingentity",
+      "sortid": 220,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cursedbeing",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/forge/biome_modifier/cursedbeing_biome_modifier.json",
+          "src/main/java/net/mcreator/gates/entity/CursedbeingEntity.java",
+          "src/main/java/net/mcreator/gates/client/renderer/CursedbeingRenderer.java",
+          "src/main/resources/assets/gates/models/item/cursedbeing_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "Cursedwalker",
+      "type": "livingentity",
+      "sortid": 221,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cursedwalker",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gates/client/renderer/CursedwalkerRenderer.java",
+          "src/main/resources/data/gates/forge/biome_modifier/cursedwalker_biome_modifier.json",
+          "src/main/resources/assets/gates/models/item/cursedwalker_spawn_egg.json",
+          "src/main/java/net/mcreator/gates/entity/CursedwalkerEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "Cursedsoul",
+      "type": "livingentity",
+      "sortid": 222,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cursedsoul",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/forge/biome_modifier/cursedsoul_biome_modifier.json",
+          "src/main/java/net/mcreator/gates/client/renderer/CursedsoulRenderer.java",
+          "src/main/java/net/mcreator/gates/entity/CursedsoulEntity.java",
+          "src/main/resources/assets/gates/models/item/cursedsoul_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "Shadowman",
+      "type": "livingentity",
+      "sortid": 223,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadowman",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gates/entity/ShadowmanEntity.java",
+          "src/main/resources/data/gates/forge/biome_modifier/shadowman_biome_modifier.json",
+          "src/main/java/net/mcreator/gates/client/renderer/ShadowmanRenderer.java",
+          "src/main/resources/assets/gates/models/item/shadowman_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "Taintedwalker",
+      "type": "livingentity",
+      "sortid": 224,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "taintedwalker",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/forge/biome_modifier/taintedwalker_biome_modifier.json",
+          "src/main/java/net/mcreator/gates/entity/TaintedwalkerEntity.java",
+          "src/main/java/net/mcreator/gates/client/renderer/TaintedwalkerRenderer.java",
+          "src/main/resources/assets/gates/models/item/taintedwalker_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "Brinksand",
+      "type": "block",
+      "sortid": 225,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brinksand",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gates/models/block/brinksand.json",
+          "src/main/java/net/mcreator/gates/block/BrinksandBlock.java",
+          "src/main/resources/assets/gates/blockstates/brinksand.json",
+          "src/main/resources/assets/gates/models/item/brinksand.json"
+        ]
+      }
+    },
+    {
+      "name": "Brink",
+      "type": "biome",
+      "sortid": 226,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brink",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/worldgen/placed_feature/brink_tree.json",
+          "src/main/resources/data/gates/worldgen/configured_feature/brink_tree.json",
+          "src/main/resources/data/gates/worldgen/biome/brink.json"
+        ]
+      }
+    },
+    {
+      "name": "Brinkportal",
+      "type": "block",
+      "sortid": 227,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brinkportal",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gates/models/item/brinkportal.json",
+          "src/main/resources/assets/gates/blockstates/brinkportal.json",
+          "src/main/resources/assets/gates/models/block/brinkportal.json",
+          "src/main/java/net/mcreator/gates/block/BrinkportalBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Brinkportalblock",
+      "type": "block",
+      "sortid": 228,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brinkportalblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gates/models/item/brinkportalblock.json",
+          "src/main/resources/assets/gates/blockstates/brinkportalblock.json",
+          "src/main/resources/assets/gates/models/block/brinkportalblock.json",
+          "src/main/java/net/mcreator/gates/block/BrinkportalblockBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "TheBrink",
+      "type": "dimension",
+      "sortid": 229,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_brink",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gates/block/TheBrinkPortalBlock.java",
+          "src/main/resources/assets/gates/models/block/the_brink_portal_ew.json",
+          "src/main/java/net/mcreator/gates/item/TheBrinkItem.java",
+          "src/main/java/net/mcreator/gates/world/teleporter/TheBrinkPortalShape.java",
+          "src/main/resources/assets/gates/models/block/the_brink_portal_ns.json",
+          "src/main/resources/data/gates/dimension/the_brink.json",
+          "src/main/java/net/mcreator/gates/world/dimension/TheBrinkDimension.java",
+          "src/main/resources/assets/gates/blockstates/the_brink_portal.json",
+          "src/main/resources/assets/gates/models/item/the_brink.json",
+          "src/main/resources/data/gates/dimension_type/the_brink.json",
+          "src/main/java/net/mcreator/gates/world/teleporter/TheBrinkTeleporter.java"
+        ]
+      }
+    },
+    {
+      "name": "Wasteland",
+      "type": "achievement",
+      "sortid": 230,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wasteland",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gates/advancements/wasteland.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "cursed",
+      "files": [
+        "cursedidle"
+      ],
+      "category": "neutral",
+      "subtitle": "Cursed being breath"
+    },
+    {
+      "name": "cursed_attack",
+      "files": [
+        "cursedattack"
+      ],
+      "category": "hostile",
+      "subtitle": "Cursed beingnotices"
+    },
+    {
+      "name": "cursed_plains",
+      "files": [
+        "cursedplains"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "cursed_plains_extra",
+      "files": [
+        "cursedextra"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "soul_idle",
+      "files": [
+        "soulidle"
+      ],
+      "category": "neutral",
+      "subtitle": "Cursed soul breaths"
+    },
+    {
+      "name": "spots_soul",
+      "files": [
+        "soulnotic"
+      ],
+      "category": "neutral",
+      "subtitle": "Soul Notices"
+    },
+    {
+      "name": "soulatt",
+      "files": [
+        "soulatt"
+      ],
+      "category": "hostile",
+      "subtitle": "Soul attacks"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "biome.gates.curropted_tundra": "Curropted Tundra",
+      "block.gates.shadow_stone_block": "Block of Shadow stone",
+      "item.gates.cursedtools_shovel": "Cursed Shovel",
+      "item.gates.tainted_crystal_dust": "Tainted crystal",
+      "item.gates.shadow_stone_axe": "Shadow stone Axe",
+      "item.gates.curropted_tools_axe": "Curropted Axe",
+      "biome.gates.cursed_forest": "Cursed Forest",
+      "item.gates.cursedrawore": "Cursedrawore",
+      "item.gates.cursed_metal_armor_leggings": "Cursed_metal Leggings",
+      "block.gates.soulwood_tree_fence_gate": "Soulwood tree Fence Gate",
+      "advancements.cursed.title": "Cursed",
+      "block.gates.soulwood_tree_slab": "Soulwood tree Slab",
+      "item.gates.shadow_stone_armor_chestplate": "Shadow_stone Chestplate",
+      "block.gates.curseddirt": "Curseddirt",
+      "biome.gates.cursed_plains": "Cursed Plains",
+      "block.gates.taintedgrass": "Taintedgrass",
+      "item.gates.curropted_armor_armor_chestplate": "Curropted_armor Chestplate",
+      "block.gates.tainted_oak_fence_gate": "Tainted_oak Fence Gate",
+      "block.gates.wraithwood_wood": "Wraithwood Wood",
+      "block.gates.cursed_metal_block": "Block of Cursed metal",
+      "block.gates.cursedgranite": "Cursedgranite",
+      "item.gates.cursedtools_axe": "Cursed Axe",
+      "block.gates.curroptedgrass": "Curroptedgrass",
+      "block.gates.cursed_wood": "Cursed Wood",
+      "item.gates.tainted_crystal_pickaxe": "Tainted crystal Pickaxe",
+      "block.gates.tainteddirt": "Tainteddirt",
+      "item.gates.tainted_crystal_armor_boots": "Tainted_crystal Boots",
+      "block.gates.cursedcobblestone": "Cursedcobblestone",
+      "item.gates.curropted_tools_hoe": "Curropted Hoe",
+      "item.gates.cursed_metal_sword": "Cursed metal Sword",
+      "block.gates.cursedstone": "Cursedstone",
+      "block.gates.curropted_block": "Block of Curropted",
+      "block.gates.soulwood_tree_fence": "Soulwood tree Fence",
+      "item.gates.cursedwalker_spawn_egg": "Cursedwalker Spawn Egg",
+      "block.gates.wraithwood_button": "Wraithwood Button",
+      "item.gates.shadow_stone_shovel": "Shadow stone Shovel",
+      "block.gates.tainted_oak_planks": "Tainted oak Planks",
+      "item.gates.cursedbeing_spawn_egg": "Cursed being Spawn Egg",
+      "item.gates.cursed_metal_armor_chestplate": "Cursed_metal Chestplate",
+      "item.gates.cursedarmor_armor_leggings": "Cursedarmor Leggings",
+      "item.gates.curropted_tools_shovel": "Curropted Shovel",
+      "block.gates.soulwood_tree_leaves": "Soulwood_tree Leaves",
+      "item.gates.shadow_stone_ingot": "Shadow stone ingot",
+      "item.gates.tainted_crystal_axe": "Tainted crystal Axe",
+      "biome.gates.soulmountains": "Soulmountains",
+      "advancements.wasteland.descr": "Enter The bRink",
+      "item.gates.shadow_stone_hoe": "Shadow stone Hoe",
+      "block.gates.brinkportalblock": "Brinkportalblock",
+      "biome.gates.shadowscape": "Shadowscape",
+      "subtitles.cursed_plains": "",
+      "item.gates.tainted_crystal_armor_helmet": "Tainted_crystal Helmet",
+      "item.gates.tainted_crystal_hoe": "Tainted crystal Hoe",
+      "item.gates.tainted_crystal_armor_chestplate": "Tainted_crystal Chestplate",
+      "block.gates.cursed_leaves": "Cursed Leaves",
+      "subtitles.spots_soul": "Soul Notices",
+      "block.gates.curropted_ore": "Curropted Ore",
+      "block.gates.cursed_portalblock": "Cursed Portalblock",
+      "item.gates.cursedarmor_armor_helmet": "Cursedarmor Helmet",
+      "item.gates.the_brink": "The Brink Portal Igniter",
+      "block.gates.wraithwood_stairs": "Wraithwood Stairs",
+      "item.gates.cursed_metal_pickaxe": "Cursed metal Pickaxe",
+      "block.gates.soulwood_tree_planks": "Soulwood tree Planks",
+      "block.gates.tainted_crystal_ore": "Tainted crystal Ore",
+      "block.gates.tainted_oak_leaves": "Tainted oak Leaves",
+      "item.gates.cursedtools_pickaxe": "Cursedtools Pickaxe",
+      "block.gates.cursed_pressure_plate": "Cursed Pressure Plate",
+      "item.gates.cursed_metal_armor_boots": "Cursed_metal Boots",
+      "item.gates.curropted": "Curropted",
+      "item.gates.tainted_crystal_armor_leggings": "Tainted_crystal Leggings",
+      "biome.gates.taintedlands": "Taintedlands",
+      "block.gates.cursed_ore": "Cursed Ore",
+      "block.gates.tainted_oak_button": "Tainted_oak Button",
+      "item.gates.shadow_stone_armor_helmet": "Shadow_stone Helmet",
+      "item.gates.cursed_ingot": "Cursed",
+      "item.gates.cursedshared": "Cursedshared",
+      "block.gates.cursedandisite": "Cursedandisite",
+      "subtitles.cursed_plains_extra": "",
+      "item.gates.cursedcore": "Cursedcore",
+      "entity.gates.cursedsoul": "Cursed soul",
+      "block.gates.wraithwood_leaves": "Wraithwood Leaves",
+      "block.gates.tainted_oak_log": "Tainted oak Log",
+      "block.gates.cursed_metal_ore": "Cursed metal Ore",
+      "block.gates.tainted_crystal_block": "Block of Tainted crystal",
+      "item.gates.shadowman_spawn_egg": "Shadow man Spawn Egg",
+      "item.gates.cursedtools_sword": "Cursed Sword",
+      "block.gates.tainted_oak_pressure_plate": "Tainted_oak Pressure Plate",
+      "advancements.cursed.descr": "Enter the Cursed Realm",
+      "biome.gates.wraithforest": "Wraithforest",
+      "biome.gates.brink": "Brink",
+      "block.gates.cursed_button": "Cursed Button",
+      "entity.gates.shadowman": "Shadow man",
+      "item.gates.curropted_armor_armor_boots": "Curropted_armor Boots",
+      "item.gates.shadow_stone_armor_leggings": "Shadow_stone Leggings",
+      "block.gates.soulwood_tree_log": "Soulwood tree Log",
+      "subtitles.cursed": "Cursed being breath",
+      "block.gates.cursed_planks": "Cursed Planks",
+      "block.gates.wraithwood_slab": "Wraithwood Slab",
+      "item.gates.cursed_metal_shovel": "Cursed metal Shovel",
+      "entity.gates.cursedwalker": "Cursedwalker",
+      "block.gates.cursed_block": "Block of Cursed",
+      "biome.gates.soulforest": "Soulforest",
+      "entity.gates.taintedwalker": "Tainted walker",
+      "item.gates.cursed_realm": "Cursed Realm Portal Igniter",
+      "item_group.gates.gates": "Gates",
+      "block.gates.brinkportal": "Brinkportal",
+      "item.gates.tainted_crystal_shovel": "Tainted crystal Shovel",
+      "subtitles.soul_idle": "Cursed soul breaths",
+      "block.gates.tainted_oak_wood": "Tainted oak Wood",
+      "block.gates.tainted_oak_slab": "Tainted oak Slab",
+      "item.gates.tainted_crystal_sword": "Tainted crystal Sword",
+      "block.gates.cursed_fence": "Cursed Fence",
+      "block.gates.shadow_stone_ore": "Shadow stone Ore",
+      "item.gates.shadow_stone_armor_boots": "Shadow_stone Boots",
+      "block.gates.cursedgrass": "Cursedgrass",
+      "item.gates.curropted_tools_sword": "Curropted Sword",
+      "item.gates.shadow_stone_pickaxe": "Shadow stone Pickaxe",
+      "item.gates.cursed_metal_hoe": "Cursed_metal Hoe",
+      "item.gates.curropted_tools_pickaxe": "Curropted Pickaxe",
+      "block.gates.wraithwood_log": "Wraithwood Log",
+      "advancements.wasteland.title": "Waste land",
+      "item.gates.cursedarmor_armor_chestplate": "Cursedarmor Chestplate",
+      "block.gates.cursed_stairs": "Cursed Stairs",
+      "block.gates.cursed_slab": "Cursed Slab",
+      "item.gates.curropted_armor_armor_helmet": "Curropted_armor Helmet",
+      "subtitles.cursed_attack": "Cursed beingnotices",
+      "block.gates.cursedsand": "Cursedsand",
+      "block.gates.soulwood_tree_wood": "Soulwood tree Wood",
+      "item.gates.cursed_metal_axe": "Cursed metal Axe",
+      "block.gates.curseddiorite": "Curseddiorite",
+      "entity.gates.cursedbeing": "Cursed being",
+      "block.gates.cursed_log": "Cursed Log",
+      "block.gates.tainted_oak_fence": "Tainted oak Fence",
+      "item.gates.cursed_metal_armor_helmet": "Cursed_metal Helmet",
+      "block.gates.soulwood_tree_button": "Soulwood tree Button",
+      "item.gates.shadow_stone_sword": "Shadow stone Sword",
+      "item.gates.cursedsoul_spawn_egg": "Cursed soul Spawn Egg",
+      "block.gates.brinksand": "Brinksand",
+      "subtitles.soulatt": "Soul attacks",
+      "block.gates.soulwood_tree_stairs": "Soulwood tree Stairs",
+      "block.gates.cursed_fence_gate": "Cursed Fence Gate",
+      "item.gates.cursedarmor_armor_boots": "Cursedarmor Boots",
+      "block.gates.wraithwood_fence": "Wraithwood Fence",
+      "item.gates.taintedwalker_spawn_egg": "Tainted walker Spawn Egg",
+      "block.gates.soulwood_tree_pressure_plate": "Soulwood tree Pressure Plate",
+      "item.gates.cursed_metal_ingot": "Cursed metal",
+      "block.gates.wraithwood_fence_gate": "Wraithwood Fence Gate",
+      "item.gates.curropted_armor_armor_leggings": "Curropted_armor Leggings",
+      "block.gates.tainted_oak_stairs": "Tainted oak Stairs",
+      "block.gates.wraithwood_pressure_plate": "Wraithwood Pressure Plate",
+      "block.gates.curropteddirt": "Curropteddirt",
+      "block.gates.wraithwood_planks": "Wraithwood Planks",
+      "item.gates.cursedtools_hoe": "Cursed Hoe"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "gates",
+    "modName": "Gates",
+    "version": "1.0.0",
+    "author": "Skipperyang083, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.gates",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300336712
+}

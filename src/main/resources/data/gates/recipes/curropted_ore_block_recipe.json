@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "gates:curropted"
+    },
+    "1": {
+      "item": "gates:curropted"
+    },
+    "2": {
+      "item": "gates:curropted"
+    },
+    "3": {
+      "item": "gates:curropted"
+    },
+    "4": {
+      "item": "gates:curropted"
+    },
+    "5": {
+      "item": "gates:curropted"
+    },
+    "6": {
+      "item": "gates:curropted"
+    },
+    "7": {
+      "item": "gates:curropted"
+    },
+    "8": {
+      "item": "gates:curropted"
+    }
+  },
+  "result": {
+    "item": "gates:curropted_block",
+    "count": 1
+  }
+}

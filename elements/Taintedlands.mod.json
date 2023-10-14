@@ -1,0 +1,140 @@
+{
+  "_fv": 47,
+  "_type": "biome",
+  "definition": {
+    "name": "Taintedlands",
+    "groundBlock": {
+      "value": "CUSTOM:Taintedgrass"
+    },
+    "undergroundBlock": {
+      "value": "CUSTOM:Cursedstone"
+    },
+    "underwaterBlock": {
+      "value": ""
+    },
+    "airColor": {
+      "value": -6648433,
+      "falpha": 0.0
+    },
+    "grassColor": {
+      "value": -13812687,
+      "falpha": 0.0
+    },
+    "foliageColor": {
+      "value": -14929630,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -7500147,
+      "falpha": 0.0
+    },
+    "waterFogColor": {
+      "value": -7099238,
+      "falpha": 0.0
+    },
+    "ambientSound": {
+      "value": ""
+    },
+    "additionsSound": {
+      "value": ""
+    },
+    "music": {
+      "value": ""
+    },
+    "moodSound": {
+      "value": ""
+    },
+    "moodSoundDelay": 6000,
+    "spawnParticles": false,
+    "particleToSpawn": {
+      "value": "EXPLOSION_NORMAL"
+    },
+    "particlesProbability": 0.5,
+    "rainingPossibility": 0.1,
+    "temperature": 0.1,
+    "spawnBiome": true,
+    "spawnInCaves": false,
+    "spawnBiomeNether": false,
+    "genTemperature": {
+      "min": -0.4965,
+      "max": 0.5019
+    },
+    "genHumidity": {
+      "min": -0.49870000000000003,
+      "max": 0.5015
+    },
+    "genContinentalness": {
+      "min": 0.30929999999999996,
+      "max": 1.0191999999999999
+    },
+    "genErosion": {
+      "min": -0.4993,
+      "max": 0.5007
+    },
+    "genWeirdness": {
+      "min": -1.0,
+      "max": 1.0039
+    },
+    "treesPerChunk": 8,
+    "vanillaTreeType": "Default",
+    "treeType": 1,
+    "minHeight": 8,
+    "treeStem": {
+      "value": "CUSTOM:Tainted_oakLog"
+    },
+    "treeBranch": {
+      "value": "CUSTOM:Tainted_oakLeaves"
+    },
+    "treeVines": {
+      "value": ""
+    },
+    "treeFruits": {
+      "value": ""
+    },
+    "defaultFeatures": [
+      "Caves",
+      "Ores",
+      "FrozenTopLayer"
+    ],
+    "spawnStronghold": false,
+    "spawnMineshaft": false,
+    "spawnMineshaftMesa": false,
+    "spawnPillagerOutpost": false,
+    "villageType": "none",
+    "spawnWoodlandMansion": false,
+    "spawnJungleTemple": false,
+    "spawnDesertPyramid": false,
+    "spawnSwampHut": false,
+    "spawnIgloo": false,
+    "spawnOceanMonument": false,
+    "spawnShipwreck": false,
+    "spawnShipwreckBeached": false,
+    "spawnBuriedTreasure": false,
+    "oceanRuinType": "NONE",
+    "spawnNetherBridge": false,
+    "spawnNetherFossil": false,
+    "spawnBastionRemnant": false,
+    "spawnEndCity": false,
+    "spawnRuinedPortal": "NONE",
+    "spawnEntries": [
+      {
+        "entity": {
+          "value": "CUSTOM:Cursedwalker"
+        },
+        "minGroup": 4,
+        "maxGroup": 4,
+        "weight": 20,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "CUSTOM:Shadowman"
+        },
+        "minGroup": 4,
+        "maxGroup": 4,
+        "weight": 20,
+        "spawnType": "monster"
+      }
+    ]
+  }
+}

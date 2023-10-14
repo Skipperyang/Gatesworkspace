@@ -1,0 +1,9 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "bottom": "gates:block/wraithwood_planks",
+    "top": "gates:block/wraithwood_planks",
+    "side": "gates:block/wraithwood_planks"
+  },
+  "render_type": "solid"
+}

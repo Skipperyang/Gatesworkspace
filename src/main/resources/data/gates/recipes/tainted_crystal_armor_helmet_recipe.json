@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "gates:tainted_crystal_dust"
+    },
+    "1": {
+      "item": "gates:tainted_crystal_dust"
+    },
+    "2": {
+      "item": "gates:tainted_crystal_dust"
+    },
+    "3": {
+      "item": "gates:tainted_crystal_dust"
+    },
+    "5": {
+      "item": "gates:tainted_crystal_dust"
+    }
+  },
+  "result": {
+    "item": "gates:tainted_crystal_armor_helmet",
+    "count": 1
+  }
+}

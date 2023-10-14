@@ -1,0 +1,63 @@
+{
+  "cursed": {
+    "subtitle": "subtitles.cursed",
+    "sounds": [
+      {
+        "name": "gates:cursedidle",
+        "stream": false
+      }
+    ]
+  },
+  "cursed_attack": {
+    "subtitle": "subtitles.cursed_attack",
+    "sounds": [
+      {
+        "name": "gates:cursedattack",
+        "stream": false
+      }
+    ]
+  },
+  "cursed_plains": {
+    "sounds": [
+      {
+        "name": "gates:cursedplains",
+        "stream": false
+      }
+    ]
+  },
+  "cursed_plains_extra": {
+    "sounds": [
+      {
+        "name": "gates:cursedextra",
+        "stream": false
+      }
+    ]
+  },
+  "soul_idle": {
+    "subtitle": "subtitles.soul_idle",
+    "sounds": [
+      {
+        "name": "gates:soulidle",
+        "stream": false
+      }
+    ]
+  },
+  "spots_soul": {
+    "subtitle": "subtitles.spots_soul",
+    "sounds": [
+      {
+        "name": "gates:soulnotic",
+        "stream": false
+      }
+    ]
+  },
+  "soulatt": {
+    "subtitle": "subtitles.soulatt",
+    "sounds": [
+      {
+        "name": "gates:soulatt",
+        "stream": false
+      }
+    ]
+  }
+}

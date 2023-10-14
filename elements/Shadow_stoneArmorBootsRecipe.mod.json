@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "EQUIPMENT",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Shadow_stoneIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Shadow_stoneIngot"
+      },
+      {
+        "value": "CUSTOM:Shadow_stoneIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Shadow_stoneIngot"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Shadow_stoneArmor.boots"
+    },
+    "name": "shadow_stone_armor_boots_recipe",
+    "namespace": "mod"
+  }
+}

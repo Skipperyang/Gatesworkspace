@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:CursedIngot"
+      },
+      {
+        "value": "CUSTOM:CursedIngot"
+      },
+      {
+        "value": "CUSTOM:CursedIngot"
+      },
+      {
+        "value": "CUSTOM:CursedIngot"
+      },
+      {
+        "value": "CUSTOM:CursedIngot"
+      },
+      {
+        "value": "CUSTOM:CursedIngot"
+      },
+      {
+        "value": "CUSTOM:CursedIngot"
+      },
+      {
+        "value": "CUSTOM:CursedIngot"
+      },
+      {
+        "value": "CUSTOM:CursedIngot"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:CursedBlock"
+    },
+    "name": "cursed_ore_block_recipe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "gates:block/soulwood_tree_slab"
+    },
+    "type=top": {
+      "model": "gates:block/soulwood_tree_slab_top"
+    },
+    "type=double": {
+      "model": "gates:block/soulwood_tree_slab_full"
+    }
+  }
+}

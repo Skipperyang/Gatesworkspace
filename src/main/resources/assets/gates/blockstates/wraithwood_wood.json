@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "gates:block/wraithwood_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "gates:block/wraithwood_wood"
+    },
+    "axis=z": {
+      "model": "gates:block/wraithwood_wood",
+      "x": 90
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "_fv": 47,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:Tainted_oakWood"
+      },
+      {
+        "value": "CUSTOM:Tainted_oakLog"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "tainted_oak_log",
+    "namespace": "forge"
+  }
+}

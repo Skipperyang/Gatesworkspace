@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "EQUIPMENT",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Cursedshared"
+      },
+      {
+        "value": "CUSTOM:Cursedshared"
+      },
+      {
+        "value": "CUSTOM:Cursedshared"
+      },
+      {
+        "value": "CUSTOM:Cursedshared"
+      },
+      {
+        "value": "CUSTOM:CursedIngot"
+      },
+      {
+        "value": "CUSTOM:Cursedshared"
+      },
+      {
+        "value": "CUSTOM:CursedIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:CursedIngot"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:CursedarmorArmor.helmet"
+    },
+    "name": "cursedarmor_armor_helmet_recipe",
+    "namespace": "mod"
+  }
+}

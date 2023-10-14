@@ -1,0 +1,158 @@
+{
+  "_fv": 47,
+  "_type": "biome",
+  "definition": {
+    "name": "Cursed Forest",
+    "groundBlock": {
+      "value": "CUSTOM:Cursedgrass"
+    },
+    "undergroundBlock": {
+      "value": "CUSTOM:Cursedstone"
+    },
+    "underwaterBlock": {
+      "value": "CUSTOM:Cursedsand"
+    },
+    "airColor": {
+      "value": -5763555,
+      "falpha": 0.0
+    },
+    "grassColor": {
+      "value": -11141112,
+      "falpha": 0.0
+    },
+    "foliageColor": {
+      "value": -9303275,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -13893628,
+      "falpha": 0.0
+    },
+    "waterFogColor": {
+      "value": -12305604,
+      "falpha": 0.0
+    },
+    "ambientSound": {
+      "value": "CUSTOM:cursed_plains_extra"
+    },
+    "additionsSound": {
+      "value": ""
+    },
+    "music": {
+      "value": ""
+    },
+    "moodSound": {
+      "value": ""
+    },
+    "moodSoundDelay": 6000,
+    "spawnParticles": false,
+    "particleToSpawn": {
+      "value": "EXPLOSION_NORMAL"
+    },
+    "particlesProbability": 0.5,
+    "rainingPossibility": 0.5,
+    "temperature": 0.5,
+    "spawnBiome": true,
+    "spawnInCaves": false,
+    "spawnBiomeNether": false,
+    "genTemperature": {
+      "min": -0.49920000000000003,
+      "max": 0.5
+    },
+    "genHumidity": {
+      "min": -0.5,
+      "max": 0.5
+    },
+    "genContinentalness": {
+      "min": 0.3,
+      "max": 1.0
+    },
+    "genErosion": {
+      "min": -0.4946,
+      "max": 0.6046
+    },
+    "genWeirdness": {
+      "min": -0.9998,
+      "max": 1.0026
+    },
+    "treesPerChunk": 70,
+    "vanillaTreeType": "Default",
+    "treeType": 1,
+    "minHeight": 10,
+    "treeStem": {
+      "value": "CUSTOM:CursedLog"
+    },
+    "treeBranch": {
+      "value": "CUSTOM:CursedLeaves"
+    },
+    "treeVines": {
+      "value": ""
+    },
+    "treeFruits": {
+      "value": ""
+    },
+    "defaultFeatures": [
+      "Caves",
+      "Ores",
+      "FrozenTopLayer"
+    ],
+    "spawnStronghold": false,
+    "spawnMineshaft": false,
+    "spawnMineshaftMesa": false,
+    "spawnPillagerOutpost": false,
+    "villageType": "none",
+    "spawnWoodlandMansion": false,
+    "spawnJungleTemple": false,
+    "spawnDesertPyramid": false,
+    "spawnSwampHut": false,
+    "spawnIgloo": false,
+    "spawnOceanMonument": false,
+    "spawnShipwreck": false,
+    "spawnShipwreckBeached": false,
+    "spawnBuriedTreasure": false,
+    "oceanRuinType": "NONE",
+    "spawnNetherBridge": false,
+    "spawnNetherFossil": false,
+    "spawnBastionRemnant": false,
+    "spawnEndCity": false,
+    "spawnRuinedPortal": "NONE",
+    "spawnEntries": [
+      {
+        "entity": {
+          "value": "CUSTOM:Cursedbeing"
+        },
+        "minGroup": 1,
+        "maxGroup": 7,
+        "weight": 7,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "CUSTOM:Cursedwalker"
+        },
+        "minGroup": 4,
+        "maxGroup": 4,
+        "weight": 20,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "CUSTOM:CursedSoul"
+        },
+        "minGroup": 4,
+        "maxGroup": 4,
+        "weight": 20,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "CUSTOM:Shadowman"
+        },
+        "minGroup": 4,
+        "maxGroup": 4,
+        "weight": 20,
+        "spawnType": "monster"
+      }
+    ]
+  }
+}

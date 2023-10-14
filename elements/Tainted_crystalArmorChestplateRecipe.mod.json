@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "EQUIPMENT",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Tainted_crystalDust"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Tainted_crystalDust"
+      },
+      {
+        "value": "CUSTOM:Tainted_crystalDust"
+      },
+      {
+        "value": "CUSTOM:Tainted_crystalDust"
+      },
+      {
+        "value": "CUSTOM:Tainted_crystalDust"
+      },
+      {
+        "value": "CUSTOM:Tainted_crystalDust"
+      },
+      {
+        "value": "CUSTOM:Tainted_crystalDust"
+      },
+      {
+        "value": "CUSTOM:Tainted_crystalDust"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Tainted_crystalArmor.body"
+    },
+    "name": "tainted_crystal_armor_chestplate_recipe",
+    "namespace": "mod"
+  }
+}

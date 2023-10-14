@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "gates:cursedshared"
+    },
+    "3": {
+      "item": "gates:cursedshared"
+    },
+    "4": {
+      "item": "gates:cursedcore"
+    },
+    "5": {
+      "item": "gates:cursedshared"
+    },
+    "7": {
+      "item": "gates:cursedshared"
+    }
+  },
+  "result": {
+    "item": "gates:cursed_portalblock",
+    "count": 1
+  }
+}

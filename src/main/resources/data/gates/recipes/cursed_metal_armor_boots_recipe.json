@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "gates:cursed_metal_ingot"
+    },
+    "2": {
+      "item": "gates:cursed_metal_ingot"
+    },
+    "3": {
+      "item": "gates:cursed_metal_ingot"
+    },
+    "5": {
+      "item": "gates:cursed_metal_ingot"
+    }
+  },
+  "result": {
+    "item": "gates:cursed_metal_armor_boots",
+    "count": 1
+  }
+}

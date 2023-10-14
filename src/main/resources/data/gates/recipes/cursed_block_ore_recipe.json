@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "gates:cursed_block"
+    }
+  ],
+  "result": {
+    "item": "gates:cursed_ingot",
+    "count": 9
+  }
+}

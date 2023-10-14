@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "gates:block/tainted_dirt",
+    "up": "gates:block/tainted_grasstop",
+    "north": "gates:block/tainted_grass",
+    "east": "gates:block/tainted_grass",
+    "south": "gates:block/tainted_grass",
+    "west": "gates:block/tainted_grass",
+    "particle": "gates:block/tainted_dirt"
+  },
+  "render_type": "solid"
+}

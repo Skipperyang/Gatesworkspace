@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "EQUIPMENT",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Cursed_metalIngot"
+      },
+      {
+        "value": "CUSTOM:Cursed_metalIngot"
+      },
+      {
+        "value": "CUSTOM:Cursed_metalIngot"
+      },
+      {
+        "value": "CUSTOM:Cursed_metalIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Cursed_metalIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Cursed_metalArmor.helmet"
+    },
+    "name": "cursed_metal_armor_helmet_recipe",
+    "namespace": "mod"
+  }
+}

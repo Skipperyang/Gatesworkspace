@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_fence",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "gates:cursed_planks"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    },
+    "2": {
+      "item": "gates:cursed_planks"
+    },
+    "3": {
+      "item": "gates:cursed_planks"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "gates:cursed_planks"
+    }
+  },
+  "result": {
+    "item": "gates:cursed_fence",
+    "count": 3
+  }
+}

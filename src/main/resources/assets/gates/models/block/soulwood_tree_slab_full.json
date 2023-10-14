@@ -1,0 +1,9 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "gates:block/soulwood_tree_planks",
+    "top": "gates:block/soulwood_tree_planks",
+    "side": "gates:block/soulwood_tree_planks"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "gates:block/tainted_oak_leaves",
+    "particle": "gates:block/tainted_oak_leaves"
+  }
+}

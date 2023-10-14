@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "012",
+    "345",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "gates:cursedshared"
+    },
+    "1": {
+      "item": "gates:cursedshared"
+    },
+    "2": {
+      "item": "gates:cursedshared"
+    },
+    "3": {
+      "item": "gates:cursedshared"
+    },
+    "4": {
+      "item": "gates:cursed_ingot"
+    },
+    "5": {
+      "item": "gates:cursedshared"
+    },
+    "6": {
+      "item": "gates:cursed_ingot"
+    },
+    "8": {
+      "item": "gates:cursed_ingot"
+    }
+  },
+  "result": {
+    "item": "gates:cursedarmor_armor_helmet",
+    "count": 1
+  }
+}

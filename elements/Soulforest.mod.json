@@ -1,0 +1,131 @@
+{
+  "_fv": 47,
+  "_type": "biome",
+  "definition": {
+    "name": "Soulforest",
+    "groundBlock": {
+      "value": "CUSTOM:Cursedgrass"
+    },
+    "undergroundBlock": {
+      "value": "CUSTOM:Cursedstone"
+    },
+    "underwaterBlock": {
+      "value": ""
+    },
+    "airColor": {
+      "value": -6566933,
+      "falpha": 0.0
+    },
+    "grassColor": {
+      "value": -7689022,
+      "falpha": 0.0
+    },
+    "foliageColor": {
+      "value": -3415053,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -6962207,
+      "falpha": 0.0
+    },
+    "waterFogColor": {
+      "value": -9398352,
+      "falpha": 0.0
+    },
+    "ambientSound": {
+      "value": ""
+    },
+    "additionsSound": {
+      "value": ""
+    },
+    "music": {
+      "value": ""
+    },
+    "moodSound": {
+      "value": ""
+    },
+    "moodSoundDelay": 6000,
+    "spawnParticles": false,
+    "particleToSpawn": {
+      "value": "EXPLOSION_NORMAL"
+    },
+    "particlesProbability": 0.5,
+    "rainingPossibility": 0.7,
+    "temperature": 0.7,
+    "spawnBiome": true,
+    "spawnInCaves": false,
+    "spawnBiomeNether": false,
+    "genTemperature": {
+      "min": -0.5,
+      "max": 0.5
+    },
+    "genHumidity": {
+      "min": -0.5,
+      "max": 0.5
+    },
+    "genContinentalness": {
+      "min": 0.3,
+      "max": 1.0
+    },
+    "genErosion": {
+      "min": -0.5,
+      "max": 0.7
+    },
+    "genWeirdness": {
+      "min": -1.0,
+      "max": 1.0291
+    },
+    "treesPerChunk": 12,
+    "vanillaTreeType": "Default",
+    "treeType": 1,
+    "minHeight": 14,
+    "treeStem": {
+      "value": "CUSTOM:Soulwood_treeLog"
+    },
+    "treeBranch": {
+      "value": "CUSTOM:Soulwood_treeLeaves"
+    },
+    "treeVines": {
+      "value": ""
+    },
+    "treeFruits": {
+      "value": ""
+    },
+    "defaultFeatures": [
+      "Caves",
+      "Ores",
+      "FrozenTopLayer"
+    ],
+    "spawnStronghold": false,
+    "spawnMineshaft": false,
+    "spawnMineshaftMesa": false,
+    "spawnPillagerOutpost": false,
+    "villageType": "none",
+    "spawnWoodlandMansion": false,
+    "spawnJungleTemple": false,
+    "spawnDesertPyramid": false,
+    "spawnSwampHut": false,
+    "spawnIgloo": false,
+    "spawnOceanMonument": false,
+    "spawnShipwreck": false,
+    "spawnShipwreckBeached": false,
+    "spawnBuriedTreasure": false,
+    "oceanRuinType": "NONE",
+    "spawnNetherBridge": false,
+    "spawnNetherFossil": false,
+    "spawnBastionRemnant": false,
+    "spawnEndCity": false,
+    "spawnRuinedPortal": "NONE",
+    "spawnEntries": [
+      {
+        "entity": {
+          "value": "CUSTOM:CursedSoul"
+        },
+        "minGroup": 4,
+        "maxGroup": 4,
+        "weight": 20,
+        "spawnType": "monster"
+      }
+    ]
+  }
+}

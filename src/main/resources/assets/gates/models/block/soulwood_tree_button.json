@@ -1,0 +1,7 @@
+{
+  "parent": "block/button",
+  "textures": {
+    "texture": "gates:block/soulwood_tree_planks"
+  },
+  "render_type": "solid"
+}

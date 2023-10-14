@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "gates:block/the_brink_portal_ew"
+    },
+    "axis=x": {
+      "model": "gates:block/the_brink_portal_ns"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_slab",
+  "category": "building",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "gates:tainted_oak_planks"
+    },
+    "1": {
+      "item": "gates:tainted_oak_planks"
+    },
+    "2": {
+      "item": "gates:tainted_oak_planks"
+    }
+  },
+  "result": {
+    "item": "gates:tainted_oak_slab",
+    "count": 6
+  }
+}

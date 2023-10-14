@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "gates:shadow_stone_ingot"
+    },
+    "1": {
+      "item": "gates:shadow_stone_ingot"
+    },
+    "2": {
+      "item": "gates:shadow_stone_ingot"
+    },
+    "3": {
+      "item": "gates:shadow_stone_ingot"
+    },
+    "4": {
+      "item": "gates:shadow_stone_ingot"
+    },
+    "5": {
+      "item": "gates:shadow_stone_ingot"
+    },
+    "6": {
+      "item": "gates:shadow_stone_ingot"
+    },
+    "7": {
+      "item": "gates:shadow_stone_ingot"
+    },
+    "8": {
+      "item": "gates:shadow_stone_ingot"
+    }
+  },
+  "result": {
+    "item": "gates:shadow_stone_block",
+    "count": 1
+  }
+}

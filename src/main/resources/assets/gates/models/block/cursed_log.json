@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "gates:block/cursed_log_top",
+    "up": "gates:block/cursed_log_top",
+    "north": "gates:block/cursed_log_side",
+    "east": "gates:block/cursed_log_side",
+    "south": "gates:block/cursed_log_side",
+    "west": "gates:block/cursed_log_side",
+    "particle": "gates:block/cursed_log_top"
+  },
+  "render_type": "solid"
+}

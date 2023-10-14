@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "012",
+    "34 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "gates:cursedshared"
+    },
+    "1": {
+      "item": "gates:cursedshared"
+    },
+    "2": {
+      "item": "gates:cursed_ingot"
+    },
+    "3": {
+      "item": "gates:cursedshared"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "gates:cursedtools_axe",
+    "count": 1
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "gates:cursedshared"
+    },
+    "title": {
+      "translate": "advancements.cursed.title"
+    },
+    "description": {
+      "translate": "advancements.cursed.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "cursed": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "gates:cursed_realm"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 90
+  }
+}

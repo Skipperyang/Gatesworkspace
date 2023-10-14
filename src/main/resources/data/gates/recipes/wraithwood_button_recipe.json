@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "wooden_button",
+  "category": "redstone",
+  "ingredients": [
+    {
+      "item": "gates:wraithwood_planks"
+    }
+  ],
+  "result": {
+    "item": "gates:wraithwood_button",
+    "count": 1
+  }
+}

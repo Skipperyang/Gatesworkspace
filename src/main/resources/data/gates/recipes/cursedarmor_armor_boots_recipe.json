@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "0 2",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "gates:cursed_ingot"
+    },
+    "2": {
+      "item": "gates:cursed_ingot"
+    },
+    "3": {
+      "item": "gates:cursedshared"
+    },
+    "5": {
+      "item": "gates:cursedshared"
+    },
+    "6": {
+      "item": "gates:cursedshared"
+    },
+    "8": {
+      "item": "gates:cursedshared"
+    }
+  },
+  "result": {
+    "item": "gates:cursedarmor_armor_boots",
+    "count": 1
+  }
+}

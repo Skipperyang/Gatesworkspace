@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "gates:block/soulwood_tree_log_top",
+    "up": "gates:block/soulwood_tree_log_top",
+    "north": "gates:block/soulwood_tree_log_side",
+    "east": "gates:block/soulwood_tree_log_side",
+    "south": "gates:block/soulwood_tree_log_side",
+    "west": "gates:block/soulwood_tree_log_side",
+    "particle": "gates:block/soulwood_tree_log_top"
+  },
+  "render_type": "solid"
+}

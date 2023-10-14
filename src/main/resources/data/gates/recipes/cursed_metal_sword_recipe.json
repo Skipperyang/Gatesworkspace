@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "gates:cursed_metal_ingot"
+    },
+    "1": {
+      "item": "gates:cursed_metal_ingot"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "gates:cursed_metal_sword",
+    "count": 1
+  }
+}
